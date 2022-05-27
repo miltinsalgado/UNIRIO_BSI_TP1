@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL, "");
+    printf("EXERCÍCIO 5.7\n");
+
+    int num = 0, cont = 0, soma = 0, media = 0;
+
+    do
+    {
+        printf("\nDigite um número: ");
+        scanf("%d", &num);
+
+        if (num > 0)
+        {
+            soma += num;
+            cont++;
+        }
+
+    } while (num != 0);
+
+    media = soma / cont;
+
+    printf("\nMédia aritmética dos números lidos: %d", media);
+
+    printf("\n\n");
+}
