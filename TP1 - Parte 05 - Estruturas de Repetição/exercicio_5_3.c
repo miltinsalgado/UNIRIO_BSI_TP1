@@ -1,3 +1,8 @@
+/*
+    5.3) Implemente em C/C++ o algoritmo de impressão dos números de 1 a N. 
+    Ao final, imprimir a soma e a média aritmética dos números de 1 a N.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

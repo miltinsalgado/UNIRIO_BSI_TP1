@@ -1,3 +1,9 @@
+/*
+    3.10) Leia um número inteiro que representa um tempo em
+    segundos. Em seguida, imprima esse tempo em horas,
+    minutos e segundos.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

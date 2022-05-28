@@ -1,3 +1,8 @@
+/*
+    4.7) Leia um valor inteiro n e dois valores (inferior e superior).
+    Por fim, imprima se n está antes, dentro ou fora do intervalo inferior..superior.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

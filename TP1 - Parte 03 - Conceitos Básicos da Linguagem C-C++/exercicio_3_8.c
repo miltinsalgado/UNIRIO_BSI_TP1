@@ -1,3 +1,8 @@
+/*
+    3.8) Leia dois números inteiros e, em seguida, calcule e
+    imprima a média aritmética desses dois números.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

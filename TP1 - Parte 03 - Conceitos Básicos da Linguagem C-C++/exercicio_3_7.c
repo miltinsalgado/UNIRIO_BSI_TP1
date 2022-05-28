@@ -1,3 +1,9 @@
+/*
+    3.7) Leia dois valores: salário e percentual de aumento. Em
+    seguida, aplique o percentual sobre o salário e imprima o
+    salário antigo, o percentual de aumento e o novo salário.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

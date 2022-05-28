@@ -1,3 +1,8 @@
+/*
+    3.extra.2) Crie um programa que lê um valor real n e imprime n sempre arredondando para um valor inteiro, então imprime o próprio n. 
+    Importante: implemente sem usar comandos de seleção (para aqueles que já conhecem).
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

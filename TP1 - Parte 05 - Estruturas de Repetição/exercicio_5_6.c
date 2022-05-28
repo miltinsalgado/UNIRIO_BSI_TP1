@@ -1,3 +1,7 @@
+/*
+    5.6) Altere o exercícios 5.5 para que sejam impressos e somados somente os números pares no intervalo de a..b.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

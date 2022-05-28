@@ -1,3 +1,7 @@
+/*
+    4.1) Converta o algoritmo do cálculo da média para C/C++.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

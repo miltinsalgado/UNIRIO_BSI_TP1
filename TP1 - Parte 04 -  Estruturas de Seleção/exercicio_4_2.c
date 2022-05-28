@@ -1,3 +1,7 @@
+/*
+    4.2) Leia dois valores inteiros a e b. Em seguida, imprima primeiro o menor valor e, depois, o maior valor.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

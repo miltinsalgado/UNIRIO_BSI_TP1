@@ -1,3 +1,8 @@
+/*
+    4.10) Leia três valores x, y e z que representam os lados de um triângulo. 
+    Em seguida, informe se eles formam um triângulo e, caso formem, indique se é um triângulo equilátero, isósceles ou escaleno.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>

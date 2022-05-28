@@ -1,3 +1,9 @@
+/*
+    3.1) Crie um programa que declara duas variáveis inteiras. 
+    Em seguida, inicialize essas variáveis e imprima 
+    a soma, subtração, multiplicação, divisão e resto da divisão entre elas.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

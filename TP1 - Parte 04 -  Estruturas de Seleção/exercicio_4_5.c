@@ -1,3 +1,8 @@
+/*
+    4.5) Leia dois valores reais x e y e imprima a divisão entre eles. 
+    Caso o divisor seja zero, imprima a mensagem "Não é possível dividir por zero".
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,3 +1,9 @@
+/*
+    3.extra.1) Crie um programa que lê um valor real n e imprime n arredondado para cima ou para baixo. 
+    Se a parte decimal >= 0.5, então arredonda pra cima, senão para baixo. 
+    Importante: implemente sem usar comandos de seleção (para aqueles que já conhecem).
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,3 +1,8 @@
+/*
+    5.5) Leia dois números inteiros a e b e imprima todos os valores no intervalo a..b e o somatório dos valores a..b. 
+    Se a > b, troque a com b.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

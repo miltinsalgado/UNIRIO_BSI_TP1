@@ -1,3 +1,7 @@
+/*
+    4.4) Leia um valor inteiro n e imprima uma mensagem dizendo se n é par ou ímpar.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,3 +1,8 @@
+/*
+    3.2) Altere o tipo das duas variáveis do exercício 3.1 para 
+    ponto flutuante.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

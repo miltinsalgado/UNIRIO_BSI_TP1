@@ -1,3 +1,9 @@
+/*
+    4.6) Leia dois valores inteiros x e y e imprima uma mensagem que informa se:
+    x é divisor de y, y é divisor de x,
+    ou nem x divide y, nem y divide x.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

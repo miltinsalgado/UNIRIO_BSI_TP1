@@ -1,3 +1,9 @@
+/*
+    5.7) Leia valores inteiros positivos até que o usuário digite zero. 
+    Ao final, imprima a média aritmética dos números lidos. 
+    Se o usuário digitar um número negativo, ignore esse valor.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

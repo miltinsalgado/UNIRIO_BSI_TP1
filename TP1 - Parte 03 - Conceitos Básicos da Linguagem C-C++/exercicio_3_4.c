@@ -1,3 +1,17 @@
+/*
+    3.4) Crie um programa que usa a função scanf para ler
+    variáveis dos seguintes tipos de dados:
+    - char
+    - int em formato decimal
+    - int em formato octal
+    - int em formato hexadecimal com 'X'
+    - float
+    - float em formato científico com 'e'
+    - double
+    Imprima todos os dados lidos para verificar se a leitura foi
+    feita corretamente.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

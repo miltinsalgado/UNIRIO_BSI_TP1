@@ -1,3 +1,8 @@
+/*
+    3.5) Leia o raio de um círculo e, em seguida, imprima o
+    perímetro (2*pi*R) e a área (pi*R^2) do círculo.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

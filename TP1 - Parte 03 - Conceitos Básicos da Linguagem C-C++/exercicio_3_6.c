@@ -1,3 +1,10 @@
+/*
+    3.6) Leia a distância percorrida por um carro, o tempo gasto
+    e a quantidade de gasolina consumida. Em seguida, imprima
+    a velocidade média (KM/h) e o consumo de combustível
+    (Km/l).
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

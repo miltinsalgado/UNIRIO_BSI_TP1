@@ -1,3 +1,9 @@
+/*
+    4.8) Calcule as raízes de uma equação do 2º grau, a partir dos coeficientes a, b e c. 
+    Se o valor de a for zero ou delta for negativo, imprima mensagens de erro.
+*/
+
+
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>

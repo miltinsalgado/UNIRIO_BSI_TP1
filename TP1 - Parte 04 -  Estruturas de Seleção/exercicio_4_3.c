@@ -1,3 +1,7 @@
+/*
+    4.3) Leia dois valores inteiros a e b e imprima uma mensagem dizendo se a é menor ou igual a b ou se a é maior que b.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

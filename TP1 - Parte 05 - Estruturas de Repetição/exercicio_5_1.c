@@ -1,3 +1,7 @@
+/*
+    5.1) Implemente em C/C++ o algoritmo de impressão dos números de 1 a N.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

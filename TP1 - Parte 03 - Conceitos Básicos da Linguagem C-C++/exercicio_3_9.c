@@ -1,3 +1,14 @@
+/*
+    3.9) Leia um número real e imprima sua parte inteira e sua
+    parte decimal. Exemplos:
+    Número: 4.67
+    Parte inteira: 4
+    Parte decimal: 0.67
+    Número: 3.26
+    Parte inteira: 3
+    Parte decimal: 0.26
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,3 +1,7 @@
+/*
+    5.2) Altere o exercício 5.1 e imprima os números de N até 1.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 

@@ -1,3 +1,7 @@
+/*
+    4.11) Implemente em C/C++ o algoritmo apresentado anteriormente usando o comando switch.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>

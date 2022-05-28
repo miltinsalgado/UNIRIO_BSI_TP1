@@ -1,3 +1,8 @@
+/*
+    5.4) Implemente em C/C++ o algoritmo de impressão do somatório dos números inteiros lidos do usuário. 
+    A leitura dos números deve parar quando o usuário digitar zero.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 
