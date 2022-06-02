@@ -7,7 +7,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main()
 {
@@ -22,7 +21,7 @@ int main()
     printf("\nDigite a altura do cilindro: ");
     scanf("%f", &altura);
     
-    float volume = M_PI * pow(raio, 2) * altura;
+    float volume = 3.14 * raio * raio * altura;
 
     printf("\nVolume do cilindro de raio %.2f e altura %.2f: %.2f", raio, altura, volume);
 

@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main()
 {
@@ -18,7 +17,7 @@ int main()
     printf("\nDigite a altura da pessoa (em m/metros): ");
     scanf("%f", &altura);
     
-    float imc = peso / pow(altura, 2);
+    float imc = peso / (altura * altura);
 
     printf("\nIMC de uma pessoa de peso %.2f kg e altura %.2f m: %.2f kg/m^2", peso, altura, imc);
 
