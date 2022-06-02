@@ -15,20 +15,25 @@ int main()
     printf("EXERCÍCIO 5.13\n");
 
     int n = 0;
-    long long int fatorial = 1;
+    long long int fatorial = 0;
 
-    printf ("\nDigite um número: ");
-    scanf("%d", &n);
+    do
+    {
+        printf("\nDigite um número: ");
+        scanf("%d", &n);
+
+        if (n < 2)
+            printf("\nNúmero digitado menor que 2!");
+    } while (n < 2);
 
     for (int k = 2; k <= n; k++)
     {
-        if (n < 2)
-        {
-            printf("\nNúmero digitado menor que 2!");
-            break;
-        }
-        fatorial *= k;
-        printf("\n%d! = %lld", k, fatorial);
+        fatorial = 1;
+
+        for (int i = k; i >= 2; i--)
+            fatorial *= i;
+
+        printf("\n%d! = %d", k, fatorial);
     }
     
     printf("\n\n");

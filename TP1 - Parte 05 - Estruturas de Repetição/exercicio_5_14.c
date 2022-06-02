@@ -11,28 +11,32 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main()
 {
     setlocale(LC_ALL, "");
     printf("EXERCÍCIO 5.14\n");
 
-    int n = 0, potencia_n = 0;
+    int n = 0, potencia = 0;
 
-    printf ("\nDigite um número: ");
-    scanf("%d", &n);
+    do
+    {
+        printf ("\nDigite um número: ");
+        scanf("%d", &n);
 
-        for (int k = 1; k <= n; k++)
-        {
-            if (n < 1)
-            {
-                printf("\nNúmero digitado menor que 1!");
-                break;
-            }
-            potencia_n = pow(n, k);
-            printf("\n%d^%d = %d", n, k, potencia_n);
-        }
+        if (n < 1)
+            printf("\nNúmero digitado menor que 1!");
+    } while (n < 1);
+
+    for (int k = 1; k <= n; k++)
+    {
+        potencia = 1;
+
+        for (int i = 1; i <= k; i++)
+            potencia *= n;
+        
+        printf("\n%d^%d = %d", n, k, potencia);
+    }
     
     printf("\n\n");
 }
