@@ -21,7 +21,7 @@ int main()
     printf("\nDigite a largura do terreno retangular (em m/metros): ");
     scanf("%f", &largura);
 
-    printf("\nDigite o preço do metro quadrado de grama (em R$): ");
+    printf("\nDigite o preço do metro quadrado de grama (em R$/reais): ");
     scanf("%f", &preco_metro_quadrado);
 
     float area = comprimento * largura;

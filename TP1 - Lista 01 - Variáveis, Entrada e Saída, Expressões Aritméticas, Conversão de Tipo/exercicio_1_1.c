@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main()
 {
@@ -16,7 +15,7 @@ int main()
     printf("\nDigite o lado do cubo: ");
     scanf("%f", &lado);
     
-    float volume = pow(lado, 3);
+    float volume = lado * lado * lado;
 
     printf("\nVolume do cubo de lado %.2f: %.2f", lado, volume);
 

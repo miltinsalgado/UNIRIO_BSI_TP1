@@ -22,7 +22,7 @@ int main()
     printf("\nDigite a largura do terreno retangular (em m/metros): ");
     scanf("%f", &largura);
 
-    printf("\nDigite o preço do metro do arame farpado (em R$): ");
+    printf("\nDigite o preço do metro do arame farpado (em R$/reais): ");
     scanf("%f", &preco_metro_arame_farpado);
 
     float metragem_arame = 8 * (comprimento + largura);

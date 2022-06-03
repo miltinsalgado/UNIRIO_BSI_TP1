@@ -15,13 +15,13 @@ int main()
 
     int a = 0, b = 0, c = 0;
 
-    printf("\nDigite o valor da variável a: ");
+    printf("\nDigite o valor (inteiro) da variável a: ");
     scanf("%d", &a);
 
-    printf("\nDigite o valor da variável b: ");
+    printf("\nDigite o valor (inteiro) da variável b: ");
     scanf("%d", &b);
 
-    printf("\nDigite o valor da variável c: ");
+    printf("\nDigite o valor (inteiro) da variável c: ");
     scanf("%d", &c);
 
     int aux = a;
