@@ -24,9 +24,10 @@ int main()
     scanf("%f", &valor);
 
     float total = valor * quantidade;
+    const float desconto = 0.2;
 
     if (total > 200)
-        total -= total * 20 / 100;
+        total -= total * desconto;
 
     printf("\nValor total a pagar: R$ %.2f", total);
 

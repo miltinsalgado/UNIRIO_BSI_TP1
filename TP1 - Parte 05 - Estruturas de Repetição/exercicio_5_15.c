@@ -1,17 +1,10 @@
 /*
-    5.14) Leia um número n e imprima n
-    k para k variando de 1 a n. 
-    Se n < 1 emita uma mensagem de erro. Exemplo: n = 5.
-    5^1= 5
-    5^2 = 25
-    5^3= 125
-    5^4 = 625
-    5^5 = 3125
+    5.15) Leia notas de alunos até que o usuário digite -1. Ao
+    final imprima a média da turma. Nota < 0 ou > 10 deve ser ignorada.
 */
 
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main()
 {
@@ -21,9 +14,9 @@ int main()
     int cont = 0;
     float nota = 0, soma = 0, media = 0;
 
-    while (1)
+    while (nota != 1)
     {
-        printf("\nDigite uma nota de um aluno: ");
+        printf("\nDigite uma nota de um aluno (de 0 até 10) ou -1 para terminar a execução: ");
         scanf("%f", &nota);
 
         if (nota == -1)
