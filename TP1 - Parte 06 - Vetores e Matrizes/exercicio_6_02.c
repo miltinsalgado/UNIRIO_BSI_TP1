@@ -1,5 +1,5 @@
 /*
-    6.1) Leia um vetor v com 10 números inteiros. Em seguida, imprima esses números na ordem inversa.
+    6.2)  Leia um vetor v com 10 números inteiros. Em seguida, imprima o somatório dos números desse vetor.
 */
 
 #include <stdio.h>
@@ -8,10 +8,10 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.1\n");
+    printf("EXERCÍCIO 6.2\n");
 
     const int tamanho_v = 10;
-    int v[tamanho_v];
+    int v[tamanho_v], soma = 0;
 
     for (int i = 0; i < tamanho_v; i++)
     {
@@ -19,10 +19,10 @@ int main()
         scanf("%d", &v[i]);
     }
 
-    printf("\nNúmeros na ordem inversa: ");
+    for (int j = 0; j < tamanho_v; j++)
+        soma += v[j];
     
-    for (int j = tamanho_v - 1; j >= 0; j--)
-        printf("\n%d", v[j]);
+    printf("\nSomatório dos números do vetor: %d", soma);
     
     printf("\n\n");
 }
