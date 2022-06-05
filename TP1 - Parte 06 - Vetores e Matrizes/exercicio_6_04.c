@@ -24,7 +24,14 @@ int main()
         scanf("%d", &v[i]);
     }
 
-    // continuar buscando soluções mais fáceis
+    int aux = 0;
+
+    for (int j = 0; j < n / 2; j++)
+    {
+        aux = v[j];
+        v[j] = v[n - j - 1];
+        v[n - j - 1] = aux;
+    }
     
     printf("\nValores do vetor invertido: ");
     for (int k = 0; k < n; k++)
