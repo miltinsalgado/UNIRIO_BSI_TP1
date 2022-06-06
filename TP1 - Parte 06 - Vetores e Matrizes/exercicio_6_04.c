@@ -18,15 +18,19 @@ int main()
 
     int v[n];
 
+    printf("\nDigite os números inteiros das posições correspondentes:");
+    printf("\n");
+
     for (int i = 0; i < n; i++)
     {
-        printf("\nDigite o número inteiro do índice %d: ", i);
+        printf("v[%d] = ", i);
         scanf("%d", &v[i]);
     }
 
     int aux = 0;
+    int k = n - 1;
 
-    for (int j = 0; j < n / 2; j++)
+    for (int j = 0; j < n / 2; j++, k--) // para colocar mais de uma expressão no for, basta separá-las por vírgula
     {
         aux = v[j];
         v[j] = v[n - j - 1];

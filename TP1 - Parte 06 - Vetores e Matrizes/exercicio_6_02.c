@@ -1,5 +1,5 @@
 /*
-    6.2)  Leia um vetor v com 10 números inteiros. Em seguida, imprima o somatório dos números desse vetor.
+    6.2) Leia um vetor v com 10 números inteiros. Em seguida, imprima o somatório dos números desse vetor.
 */
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < tamanho_v; i++)
     {
-        printf("\nDigite o número inteiro do índice %d: ", i);
+        printf("v[%d] = ", i);
         scanf("%d", &v[i]);
     }
 

@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < tamanho_v; i++)
     {
-        printf("\nDigite o número inteiro do índice %d: ", i);
+        printf("v[%d] = ", i);
         scanf("%d", &v[i]);
     }
 

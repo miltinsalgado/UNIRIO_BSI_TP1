@@ -13,9 +13,12 @@ int main()
     const int tamanho_v = 10;
     int v[tamanho_v];
 
+    printf("\nDigite os números inteiros das posições correspondentes:");
+    printf("\n");
+
     for (int i = 0; i < tamanho_v; i++)
     {
-        printf("\nDigite o número inteiro do índice %d: ", i);
+        printf("v[%d] = ", i);
         scanf("%d", &v[i]);
     }
 
