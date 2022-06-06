@@ -33,8 +33,8 @@ int main()
     for (int j = 0; j < n / 2; j++, k--) // para colocar mais de uma expressão no for, basta separá-las por vírgula
     {
         aux = v[j];
-        v[j] = v[n - j - 1];
-        v[n - j - 1] = aux;
+        v[j] = v[k];
+        v[k] = aux;
     }
     
     printf("\nValores do vetor invertido: ");
