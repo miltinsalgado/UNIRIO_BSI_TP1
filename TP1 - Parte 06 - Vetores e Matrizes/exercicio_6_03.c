@@ -13,6 +13,9 @@ int main()
     const int tamanho_v = 10;
     int v[tamanho_v];
 
+    printf("\nDigite os números inteiros nas posições correspondentes:");
+    printf("\n");
+
     for (int i = 0; i < tamanho_v; i++)
     {
         printf("v[%d] = ", i);

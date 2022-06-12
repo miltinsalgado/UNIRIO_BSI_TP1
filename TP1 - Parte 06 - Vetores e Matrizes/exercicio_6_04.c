@@ -18,7 +18,7 @@ int main()
 
     int v[n];
 
-    printf("\nDigite os números inteiros das posições correspondentes:");
+    printf("\nDigite os números inteiros nas posições correspondentes:");
     printf("\n");
 
     for (int i = 0; i < n; i++)
