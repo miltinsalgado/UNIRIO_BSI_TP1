@@ -140,6 +140,7 @@ int main()
         {
             if (j + t > k)
                 break;
+                
             subsequencia_igual = true;
 
             for (int l = j, m = 0; l < j + t; l++, m++)
