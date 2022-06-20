@@ -11,7 +11,7 @@
     Crie um programa em C que lê o valor de n e imprime os n ímpares consecutivos que cuja soma é igual a n^3. 
 
     Restrições:
-    a) n > 1. Se n < 1, então solicite novamente o valor até o usuário digitar corretamente. 
+    a) n >= 1. Se n < 1, então solicite novamente o valor até o usuário digitar corretamente. 
     b) Todo o código deverá estar implementado na função main. 
     c) Não são permitidas variáveis globais.
 */
