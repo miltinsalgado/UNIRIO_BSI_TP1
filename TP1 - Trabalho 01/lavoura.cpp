@@ -1,5 +1,6 @@
 /*
-    1.1) Uma  empresa  utiliza  aviões  para  pulverizar  lavouras.  O  valor  do  serviço  cobrado  pela 
+    1.1) Programa: lavoura.cpp (2,0 pontos) 
+    Uma  empresa  utiliza  aviões  para  pulverizar  lavouras.  O  valor  do  serviço  cobrado  pela 
     empresa  depende  da  área  a  ser  pulverizada  e  do  tipo  da  pulverização,  conforme  tabela  a seguir: 
 
     Tipo da pulverização                    Valor 
@@ -60,7 +61,7 @@ int main()
         if (area_pulverizada < 0)
         {
             entrada_valida = false;
-            printf("\nA área a ser pulverizada deve ser positiva! Por favor, digite novamente");
+            printf("\nA área a ser pulverizada deve ser maior do que 0! Por favor, digite novamente");
         }
 
         else
@@ -129,14 +130,14 @@ int main()
 
     if (area_pulverizada > 10)
     {
-        valor_desconto_area = valor_servico_final * 5 / 100;
+        valor_desconto_area = valor_servico_total * 5 / 100;
         valor_servico_final -= valor_desconto_area;
         valor_desconto_total += valor_desconto_area;
     }
 
-    if (valor_servico_final > 750.00)
+    if (valor_servico_total > 750.00)
     {
-        valor_desconto_maior_750 = (valor_servico_final - 750) * 10 / 100;
+        valor_desconto_maior_750 = (valor_servico_total - 750) * 10 / 100;
         valor_servico_final -= valor_desconto_maior_750;
         valor_desconto_total += valor_desconto_maior_750;
     }
