@@ -5,6 +5,7 @@
         "stdbool.h": "c",
         "iostream": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "string.h": "c"
     }
 }
