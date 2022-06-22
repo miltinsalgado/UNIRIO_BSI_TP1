@@ -58,7 +58,7 @@ int main()
         printf("\nDigite a área a ser pulverizada: ");
         scanf("%d", &area_pulverizada);
 
-        if (area_pulverizada < 0)
+        if (area_pulverizada <= 0)
         {
             entrada_valida = false;
             printf("\nA área a ser pulverizada deve ser maior do que 0! Por favor, digite novamente");
