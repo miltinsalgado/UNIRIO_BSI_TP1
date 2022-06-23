@@ -72,13 +72,13 @@ int main()
                     matricula_repetida  = true;
             }
 
-            if (matricula <= 100000 || matricula >= 999999)
+            if (matricula < 100000 || matricula > 999999)
                 printf("\nA matrícula é um número inteiro positivo de 6 dígitos (zeros à esquerda não contam). Por favor, digite novamente\n");
 
             if (matricula_repetida)
                 printf("\nMatrícula de número %d já está inserida na turma A. Por favor, digite novamente\n", matricula);
 
-        } while (matricula <= 100000 || matricula >= 999999 || matricula_repetida);
+        } while (matricula < 100000 || matricula > 999999 || matricula_repetida);
 
         matriculas_A[i] = matricula;
     }
