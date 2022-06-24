@@ -18,13 +18,13 @@ int main()
     printf("\nDigite a coordenada x do ponto P1: ");
     scanf("%f", &x1);
 
-    printf("\nDigite a coordenada y do ponto P1: ");
+    printf("Digite a coordenada y do ponto P1: ");
     scanf("%f", &y1);
 
     printf("\nDigite a coordenada x do ponto P2: ");
     scanf("%f", &x2);
 
-    printf("\nDigite a coordenada y do ponto P2: ");
+    printf("Digite a coordenada y do ponto P2: ");
     scanf("%f", &y2);
 
     float d = sqrt((pow(x1 - y1, 2)) - (pow(x2 - y2, 2)));

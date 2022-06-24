@@ -20,8 +20,7 @@ int main()
 
     int v[tam];
 
-    printf("\nDigite os números inteiros nas posições correspondentes:");
-    printf("\n");
+    puts("\nDigite os números inteiros nas posições correspondentes:");
 
     for (int i = 0; i < tam; i++)
     {

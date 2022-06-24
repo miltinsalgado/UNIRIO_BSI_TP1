@@ -13,8 +13,7 @@ int main()
 
     int matriz[4][4];
 
-    printf("\nDigite os números inteiros das posições correspondentes:");
-    printf("\n");
+    puts("\nDigite os números inteiros das posições correspondentes:");
 
     for (int i = 0; i < 4; i++)
     {

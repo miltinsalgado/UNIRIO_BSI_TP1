@@ -13,8 +13,7 @@ int main()
 
     int matriz[2][3];
 
-    printf("\nDigite os números inteiros nas posições correspondentes:");
-    printf("\n");
+    puts("\nDigite os números inteiros nas posições correspondentes:");
 
     for (int i = 0; i < 2; i++)
     {

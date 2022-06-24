@@ -29,8 +29,7 @@ int main()
 
     int matriz[n][m];
 
-    printf("\nDigite os números inteiros das posições correspondentes:");
-    printf("\n");
+    puts("\nDigite os números inteiros das posições correspondentes:");
 
     for (int i = 0; i < n; i++)
     {
@@ -41,8 +40,7 @@ int main()
         }
     }
 
-    printf("\nMatriz por coluna:");
-    printf("\n");
+    puts("\nMatriz por coluna:");
 
     for (int k = 0; k < m; k++)
     {

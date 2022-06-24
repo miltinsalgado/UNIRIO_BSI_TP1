@@ -22,8 +22,7 @@ int main()
         if (cadeia_caracteres[i] == ' ')
             cadeia_caracteres[i] = '-';
     
-    printf("\nCadeia de caracteres com espaços em branco substituídos por hífen: ");
-    puts(cadeia_caracteres);
-    
+    printf("\nCadeia de caracteres com espaços em branco substituídos por hífen: %s", cadeia_caracteres);
+
     printf("\n\n");
 }

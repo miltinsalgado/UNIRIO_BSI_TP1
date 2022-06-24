@@ -20,8 +20,7 @@ int main()
 
     float notas[n];
 
-    printf("\nDigite as notas dos alunos nas posições correspondentes:");
-    printf("\n");
+    puts("\nDigite as notas dos alunos nas posições correspondentes:");
 
     for (int i = 0; i < n; i++)
     {
@@ -37,7 +36,8 @@ int main()
     media = soma / n;
 
     printf("\nMédia da turma: %.2f", media);
-    printf("\n\nAlunos que tiraram nota acima da média:");
+    printf("\n");
+    printf("\nAlunos que tiraram nota acima da média:");
 
     for (int k = 0; k < n; k++)
         if (notas[k] > media)

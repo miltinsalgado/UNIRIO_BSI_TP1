@@ -32,11 +32,8 @@ int main()
         cadeia_caracteres_2[j] = '\0';
     */
 
-    printf("\nCadeia de caracteres original: ");
-    puts(cadeia_caracteres_1);
-
-    printf("\nCadeia de caracteres invertida: ");
-    puts(cadeia_caracteres_2);
+    printf("\nCadeia de caracteres original: %s", cadeia_caracteres_1);
+    printf("\nCadeia de caracteres invertida: %s", cadeia_caracteres_2);
 
     printf("\n\n");
 }

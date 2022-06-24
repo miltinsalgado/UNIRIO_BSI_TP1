@@ -14,8 +14,7 @@ int main()
     const int tamanho_v = 10;
     int v[tamanho_v], soma = 0;
 
-    printf("\nDigite os números inteiros nas posições correspondentes:");
-    printf("\n");
+    puts("\nDigite os números inteiros nas posições correspondentes:");
 
     for (int i = 0; i < tamanho_v; i++)
     {

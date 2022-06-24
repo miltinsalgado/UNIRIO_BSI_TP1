@@ -31,11 +31,8 @@ int main()
         
     } while (strcmpi(palavra, "") != 0);
 
-    printf("\nMaior palavra segundo a ordem alfabética: ");
-    puts(maior_palavra_ordem_alfabetica);
-
-    printf("\nMaior palavra em quantidade de letras: ");
-    puts(maior_palavra_quantidade_letras);
+    printf("\nMaior palavra segundo a ordem alfabética: %s", maior_palavra_ordem_alfabetica);
+    printf("\nMaior palavra em quantidade de letras:  %s", maior_palavra_quantidade_letras);
     
     printf("\n\n");
 }

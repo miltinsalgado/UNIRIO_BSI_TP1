@@ -32,11 +32,8 @@ int main()
         cadeia_caracteres_aux[j] = '\0';
     */
     
-    printf("\nCadeia de caracteres original: ");
-    puts(cadeia_caracteres);
-
-    printf("\nCadeia de caracteres sem os espaços em branco: ");
-    puts(cadeia_caracteres_aux);
+    printf("\nCadeia de caracteres original: %s", cadeia_caracteres);
+    printf("\nCadeia de caracteres sem os espaços em branco: %s", cadeia_caracteres_aux);
     
     printf("\n\n");
 }
