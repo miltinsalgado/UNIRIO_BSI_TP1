@@ -1,5 +1,6 @@
 /*
-    2.5) Leia três valores a, b e c e imprima o maior e o menor deles. 
+    Lista 02 - Exercício 05
+    Leia três valores a, b e c e imprima o maior e o menor deles. 
     Elabore uma solução sem usar os operadores lógicos, ou seja, usando somente os operadores relacionais.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.5\n");
+    printf("LISTA 02 - EXERCÍCIO 05\n");
 
     float a = 0, b = 0, c = 0;
 

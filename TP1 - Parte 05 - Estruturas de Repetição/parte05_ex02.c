@@ -1,5 +1,6 @@
 /*
-    5.2) Altere o exercício 5.1 e imprima os números de N até 1.
+    Parte 05 - Exercício 02
+    Altere o exercício 01 e imprima os números de N até 1.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.2\n");
+    printf("PARTE 05 - EXERCÍCIO 02\n");
 
     int n = 0, cont = 1;
     

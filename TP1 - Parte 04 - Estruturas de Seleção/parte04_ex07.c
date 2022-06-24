@@ -1,5 +1,6 @@
 /*
-    4.7) Leia um valor inteiro n e dois valores (inferior e superior).
+    Parte 04 - Exercício 07
+    Leia um valor inteiro n e dois valores (inferior e superior).
     Por fim, imprima se n está antes, dentro ou fora do intervalo inferior..superior.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.7\n");
+    printf("PARTE 04 - EXERCÍCIO 07\n");
 
     int n = 0, inferior = 0, superior = 0;
 

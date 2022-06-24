@@ -1,6 +1,6 @@
 /*
-    3.5) Leia o raio de um círculo e, em seguida, imprima o
-    perímetro (2*pi*R) e a área (pi*R^2) do círculo.
+    Parte 03 - Exercício 05
+    Leia o raio de um círculo e, em seguida, imprima o perímetro (2*pi*R) e a área (pi*R^2) do círculo.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.5\n");
+    printf("PARTE 03 - EXERCÍCIO 05\n");
 
     float raio = 0, perimetro = 0, area = 0, pi = 3.14;
 

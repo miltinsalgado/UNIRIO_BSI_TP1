@@ -1,5 +1,6 @@
 /*
-    4.5) Leia dois valores reais x e y e imprima a divisão entre eles. 
+    Parte 04 - Exercício 05
+    Leia dois valores reais x e y e imprima a divisão entre eles. 
     Caso o divisor seja zero, imprima a mensagem "Não é possível dividir por zero".
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.5\n");
+    printf("PARTE 04 - EXERCÍCIO 05\n");
 
     float x = 0, y = 0;
 

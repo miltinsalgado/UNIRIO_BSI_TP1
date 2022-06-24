@@ -1,5 +1,6 @@
 /*
-    5.9) Leia três valores inteiros n, m e k e imprima os números
+    Parte 05 - Exercício 09
+    Leia três valores inteiros n, m e k e imprima os números
     no intervalo de n a m que são divisíveis por k e calcule o
     somatório e a média desses números.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.9\n");
+    printf("PARTE 05 - EXERCÍCIO 09\n");
 
     int n = 0, m = 0, k = 0, soma = 0, media = 0, cont_div_k = 0;
 

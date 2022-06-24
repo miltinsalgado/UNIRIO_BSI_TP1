@@ -1,5 +1,6 @@
 /*
-    1.12) Leia o comprimento e a largura de um terreno retangular, além do preço do metro de arame farpado. 
+    Lista 01 - Exercício 12
+    Leia o comprimento e a largura de um terreno retangular, além do preço do metro de arame farpado. 
     Depois, calcule e imprima:
     a) A metragem de arame gasta para cercar o terreno, sabendo que o terreno será cercado com 4
     voltas de arame farpado.
@@ -12,7 +13,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.12\n");
+    printf("LISTA 01 - EXERCÍCIO 12\n");
 
     float comprimento = 0, largura = 0, preco_metro_arame_farpado = 0;
 

@@ -1,5 +1,6 @@
 /*
-    4.6) Leia dois valores inteiros x e y e imprima uma mensagem que informa se:
+    Parte 04 - Exercício 06
+    Leia dois valores inteiros x e y e imprima uma mensagem que informa se:
     x é divisor de y, y é divisor de x,
     ou nem x divide y, nem y divide x.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.6\n");
+    printf("PARTE 04 - EXERCÍCIO 06\n");
 
     int x = 0, y = 0;
 

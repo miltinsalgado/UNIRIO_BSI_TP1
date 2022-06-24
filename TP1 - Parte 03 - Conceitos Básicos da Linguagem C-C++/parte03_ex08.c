@@ -1,6 +1,6 @@
 /*
-    3.8) Leia dois números inteiros e, em seguida, calcule e
-    imprima a média aritmética desses dois números.
+    Parte 03 - Exercício 08
+    Leia dois números inteiros e, em seguida, calcule e imprima a média aritmética desses dois números.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.8\n");
+    printf("PARTE 03 - EXERCÍCIO 08\n");
 
     int a = 0, b = 0;
 

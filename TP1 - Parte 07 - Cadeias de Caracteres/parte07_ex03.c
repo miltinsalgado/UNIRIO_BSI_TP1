@@ -1,5 +1,6 @@
 /*
-    7.3) Leia uma cadeia de caracteres e, em seguida, gere outra cadeia igual à primeira, mas sem os espaços em branco da primeira. 
+    Parte 07 - Exercício 03
+    Leia uma cadeia de caracteres e, em seguida, gere outra cadeia igual à primeira, mas sem os espaços em branco da primeira. 
     Imprima as duas cadeias.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.3\n");
+    printf("PARTE 07 - EXERCÍCIO 03\n");
 
     char cadeia_caracteres[100] = "", cadeia_caracteres_aux[100] = "";
 

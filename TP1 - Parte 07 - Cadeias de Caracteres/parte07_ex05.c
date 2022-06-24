@@ -1,5 +1,6 @@
 /*
-    7.5) Leia uma cadeia de caracteres e imprima quantas vogais, consoantes, dígitos e outros caracteres essa cadeia possui.
+    Parte 07 - Exercício 05
+    Leia uma cadeia de caracteres e imprima quantas vogais, consoantes, dígitos e outros caracteres essa cadeia possui.
 */
 
 #include <stdio.h>
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.5\n");
+    printf("PARTE 07 - EXERCÍCIO 05\n");
 
     char cadeia_caracteres[100] = "";
 

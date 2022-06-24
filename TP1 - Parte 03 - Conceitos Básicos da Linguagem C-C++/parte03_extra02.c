@@ -1,5 +1,6 @@
 /*
-    3.extra.2) Crie um programa que lê um valor real n e imprime n sempre arredondando para um valor inteiro, então imprime o próprio n. 
+    Parte 03 - Exercício Extra 02
+    Crie um programa que lê um valor real n e imprime n sempre arredondando para um valor inteiro, então imprime o próprio n. 
     Importante: implemente sem usar comandos de seleção (para aqueles que já conhecem).
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.EXTRA.2\n");
+    printf("PARTE 03 - EXERCÍCIO EXTRA 02\n");
 
     float n = 0;
 

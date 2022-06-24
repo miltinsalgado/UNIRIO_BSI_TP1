@@ -1,6 +1,7 @@
 /*
-    3.9) Leia um número real e imprima sua parte inteira e sua
-    parte decimal. Exemplos:
+    Parte 03 - Exercício 09
+    Leia um número real e imprima sua parte inteira e sua parte decimal. 
+    Exemplos:
     Número: 4.67
     Parte inteira: 4
     Parte decimal: 0.67
@@ -15,7 +16,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.9\n");
+    printf("PARTE 03 - EXERCÍCIO 09\n");
 
     float num = 0;
 

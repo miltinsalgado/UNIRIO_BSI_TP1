@@ -1,5 +1,6 @@
 /*
-    7.1) Leia uma cadeia de caracteres e troque os espaços em branco por hífen. 
+    Parte 07 - Exercício 01
+    Leia uma cadeia de caracteres e troque os espaços em branco por hífen. 
     Imprima a nova cadeia.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.1\n");
+    printf("PARTE 07 - EXERCÍCIO 01\n");
 
     char cadeia_caracteres[100] = "";
 

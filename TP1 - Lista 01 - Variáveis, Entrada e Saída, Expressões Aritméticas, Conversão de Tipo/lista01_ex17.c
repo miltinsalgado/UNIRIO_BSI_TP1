@@ -1,5 +1,6 @@
 /*
-    1.17) Leia dois inteiros x e y e imprima o maior múltiplo de x menor ou igual a y. 
+    Lista 01 - Exercício 17
+    Leia dois inteiros x e y e imprima o maior múltiplo de x menor ou igual a y. 
     Exemplo: se x = 9 e y = 38, então o resultado é 36.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.17\n");
+    printf("LISTA 01 - EXERCÍCIO 17\n");
 
     int x = 0, y = 0;
 

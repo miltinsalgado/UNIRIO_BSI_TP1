@@ -1,5 +1,6 @@
 /*
-    6.7) Altere o exercício anterior para imprimir a mensagem
+    Parte 06 - Exercício 07
+    Altere o exercício anterior para imprimir a mensagem
     "Número não existe" caso k não exista no vetor v.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.7\n");
+    printf("PARTE 06 - EXERCÍCIO 07\n");
 
     int tam = 0;
 

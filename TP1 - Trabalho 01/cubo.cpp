@@ -1,5 +1,5 @@
 /*
-    1.2) Programa: cubo.cpp (2,0 pontos) 
+    Trabalho 01 - Questão 02 - Programa: cubo.cpp (2,0 pontos) 
     Sabe-se que um número da forma n^3 é igual à soma de n ímpares consecutivos. 
 
     Exemplos: 
@@ -22,7 +22,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.2 CUBO\n");
+    printf("TRABALHO 01 - QUESTÃO 02\n");
 
     int n = 0;
 

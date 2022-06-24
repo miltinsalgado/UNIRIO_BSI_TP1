@@ -1,5 +1,6 @@
 /*
-    4.10) Leia três valores x, y e z que representam os lados de um triângulo. 
+    Parte 04 - Exercício 10
+    Leia três valores x, y e z que representam os lados de um triângulo. 
     Em seguida, informe se eles formam um triângulo e, caso formem, indique se é um triângulo equilátero, isósceles ou escaleno.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.10\n");
+    printf("PARTE 04 - EXERCÍCIO 10\n");
 
     float x = 0, y = 0, z = 0;
 

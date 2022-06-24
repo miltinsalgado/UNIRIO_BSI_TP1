@@ -1,5 +1,6 @@
 /*
-    5.15) Leia notas de alunos até que o usuário digite -1. Ao
+    Parte 05 - Exercício 15
+    Leia notas de alunos até que o usuário digite -1. Ao
     final imprima a média da turma. Nota < 0 ou > 10 deve ser ignorada.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.15\n");
+    printf("PARTE 05 - EXERCÍCIO 15\n");
 
     int cont = 0;
     float nota = 0, soma = 0, media = 0;

@@ -1,5 +1,6 @@
 /*
-    5.3) Implemente em C/C++ o algoritmo de impressão dos números de 1 a N. 
+    Parte 05 - Exercício 03
+    Implemente em C/C++ o algoritmo de impressão dos números de 1 a N. 
     Ao final, imprimir a soma e a média aritmética dos números de 1 a N.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.3\n");
+    printf("PARTE 05 - EXERCÍCIO 03\n");
 
     int n = 0, cont = 1, soma = 0, media = 0;
     

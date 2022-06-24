@@ -1,5 +1,6 @@
 /*
-    1.10) Leia 3 notas de um aluno e seus respectivos pesos. Depois, calcule e imprima a média ponderada do aluno.
+    Lista 01 - Exercício 10
+    eia 3 notas de um aluno e seus respectivos pesos. Depois, calcule e imprima a média ponderada do aluno.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.10\n");
+    printf("LISTA 01 - EXERCÍCIO 10\n");
 
     float nota1 = 0, nota2 = 0, nota3 = 0;
     int peso1 = 0, peso2 = 0, peso3 = 0;

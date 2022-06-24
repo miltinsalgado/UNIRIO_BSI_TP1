@@ -1,5 +1,6 @@
 /*
-    6.9) Leia uma matriz 4x4 de números inteiros e imprima os elementos da diagonal principal e da diagonal secundária.
+    Parte 06 - Exercício 09
+    Leia uma matriz 4x4 de números inteiros e imprima os elementos da diagonal principal e da diagonal secundária.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.9\n");
+    printf("PARTE 06 - EXERCÍCIO 09\n");
 
     int matriz[4][4];
 

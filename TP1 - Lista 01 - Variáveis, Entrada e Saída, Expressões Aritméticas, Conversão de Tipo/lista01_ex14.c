@@ -1,5 +1,6 @@
 /*
-    1.14) Leia a e b e calcule a equação do 1º grau ax + b = 0, imprimindo o valor de x. 
+    Lista 01 - Exercício 14
+    Leia a e b e calcule a equação do 1º grau ax + b = 0, imprimindo o valor de x. 
     Considere a diferente de zero.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.14\n");
+    printf("LISTA 01 - EXERCÍCIO 14\n");
 
     float a = 0, b = 0;
 

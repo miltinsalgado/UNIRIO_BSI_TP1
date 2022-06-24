@@ -1,5 +1,6 @@
 /*
-    1.8) Realize a conversão de km para milhas, imprimindo o resultado da conversão. Sabe-se que:
+    Lista 01 - Exercício 08
+    Realize a conversão de km para milhas, imprimindo o resultado da conversão. Sabe-se que:
     1 km = 0,621371 milhas
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.8\n");
+    printf("LISTA 01 - EXERCÍCIO 08\n");
 
     double quilometros = 0;
 

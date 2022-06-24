@@ -1,6 +1,7 @@
 /*
     ! DESAFIO !
-    1.23) Leia dois valores de hora, minuto e segundo (h1, m1, s1, h2, m2, s2). 
+    Lista 01 - Exercício 23
+    Leia dois valores de hora, minuto e segundo (h1, m1, s1, h2, m2, s2). 
     Em seguida, imprima o intervalo entre esses dois horários em hora, minuto e segundo. 
     Assuma que h2/m2/s2 é maior ou igual a h1/m1/s1. 
     Exemplo: se h1 = 9, m1 = 45, s1 = 38, h2 = 15, m2 = 27 e s2 = 12 então a diferença é 05:41:34.
@@ -12,7 +13,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.23\n");
+    printf("LISTA 01 - EXERCÍCIO 23\n");
 
     int h1 = 0, m1 = 0, s1 = 0, h2 = 0, m2 = 0, s2 = 0;
 

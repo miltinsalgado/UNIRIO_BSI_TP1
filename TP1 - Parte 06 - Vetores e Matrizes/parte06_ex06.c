@@ -1,5 +1,6 @@
 /*
-    6.6) Leia um número inteiro tam e crie um vetor v de inteiros de tamanho tam. 
+    Parte 06 - Exercício 06
+    Leia um número inteiro tam e crie um vetor v de inteiros de tamanho tam. 
     Em seguida, leia os números desse vetor.
     Por fim, leia um número inteiro k e imprima as posições do vetor v onde existe um valor igual a k.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.6\n");
+    printf("PARTE 06 - EXERCÍCIO 06\n");
 
     int tam = 0;
 

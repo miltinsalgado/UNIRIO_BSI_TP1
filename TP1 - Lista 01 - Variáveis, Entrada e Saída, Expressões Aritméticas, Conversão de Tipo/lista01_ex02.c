@@ -1,5 +1,6 @@
 /*
-    1.2) Leia a base e a altura de um triângulo, calcule e imprima sua área.
+    Lista 01 - Exercício 02
+    Leia a base e a altura de um triângulo, calcule e imprima sua área.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.2\n");
+    printf("LISTA 01 - EXERCÍCIO 02\n");
 
     float base = 0, altura = 0;
 

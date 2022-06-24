@@ -1,5 +1,6 @@
 /*
-    5.1) Implemente em C/C++ o algoritmo de impressão dos números de 1 a N.
+    Parte 05 - Exercício 01
+    Implemente em C/C++ o algoritmo de impressão dos números de 1 a N.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.1\n");
+    printf("PARTE 05 - EXERCÍCIO 01\n");
 
     int n = 0, cont = 1;
     

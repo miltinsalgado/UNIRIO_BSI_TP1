@@ -1,5 +1,6 @@
 /*
-    1.5) Leia a quantidade de bytes de um arquivo e a velocidade de transmissão em bytes por segundo e 
+    Lista 01 - Exercício 05
+    Leia a quantidade de bytes de um arquivo e a velocidade de transmissão em bytes por segundo e 
     imprimir quantos segundos serão necessários para fazer o download do arquivo.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.5\n");
+    printf("LISTA 01 - EXERCÍCIO 05\n");
 
     float quantidade_bytes = 0, velocidade_transmissao = 0;
 

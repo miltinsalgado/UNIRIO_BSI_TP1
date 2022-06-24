@@ -1,6 +1,6 @@
 /*
-    3.4) Crie um programa que usa a função scanf para ler
-    variáveis dos seguintes tipos de dados:
+    Parte 03 - Exercício 04
+    Crie um programa que usa a função scanf para ler variáveis dos seguintes tipos de dados:
     - char
     - int em formato decimal
     - int em formato octal
@@ -8,8 +8,7 @@
     - float
     - float em formato científico com 'e'
     - double
-    Imprima todos os dados lidos para verificar se a leitura foi
-    feita corretamente.
+    Imprima todos os dados lidos para verificar se a leitura foi feita corretamente.
 */
 
 #include <stdio.h>
@@ -18,7 +17,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.4\n");
+    printf("PARTE 03 - EXERCÍCIO 04\n");
 
     char caractere;
     int inteiro_decimal;

@@ -1,5 +1,6 @@
 /*
-    1.16) Leia um número real x e imprima seu valor arredondado. 
+    Lista 01 - Exercício 16
+    Leia um número real x e imprima seu valor arredondado. 
     Por exemplo: se x = 3.2 imprimir 3, e se x = 3.5 ou maior imprimir 4.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.16\n");
+    printf("LISTA 01 - EXERCÍCIO 16\n");
 
     float x = 0;
 

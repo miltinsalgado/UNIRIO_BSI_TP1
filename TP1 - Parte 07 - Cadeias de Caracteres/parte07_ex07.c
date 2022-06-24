@@ -1,5 +1,6 @@
 /*
-    7.7) Leia palavras até o usuário digitar uma string vazia.
+    Parte 07 - Exercício 07
+    Leia palavras até o usuário digitar uma string vazia.
     Ao final imprima a maior palavra segundo a ordem alfabética e a maior palavra em quantidade de letras. 
     Considere letras minúsculas e maiúsculas como iguais.
 */
@@ -12,7 +13,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.7\n");
+    printf("PARTE 07 - EXERCÍCIO 07\n");
 
     char palavra[100] = "", maior_palavra_ordem_alfabetica[100] = "", maior_palavra_quantidade_letras[100] = "";
     int cont = 0;

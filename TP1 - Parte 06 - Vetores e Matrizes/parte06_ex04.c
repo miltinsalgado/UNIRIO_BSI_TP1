@@ -1,5 +1,6 @@
 /*
-    6.4) Leia um número n e crie um vetor v de inteiros de tamanho n. 
+    Parte 06 - Exercício 04
+    Leia um número n e crie um vetor v de inteiros de tamanho n. 
     Em seguida, leia os valores de v e, por fim, inverta os valores de v (primeiro para último, segundo para penúltimo, etc.).
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.4\n");
+    printf("PARTE 06 - EXERCÍCIO 04\n");
 
     int n = 0;
 

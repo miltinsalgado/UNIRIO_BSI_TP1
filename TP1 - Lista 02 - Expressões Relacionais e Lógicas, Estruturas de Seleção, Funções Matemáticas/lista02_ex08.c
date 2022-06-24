@@ -1,5 +1,6 @@
 /*
-    2.8) Leia um número e imprima uma mensagem informando se ele é igual a 5, ou se é igual a 200, 
+    Lista 02 - Exercício 08
+    Leia um número e imprima uma mensagem informando se ele é igual a 5, ou se é igual a 200, 
     ou se é igual a 400, ou se ele está no intervalo de 500 a 1000 (inclusive) ou se ele não obedece a nenhuma dessas condições.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.8\n");
+    printf("LISTA 02 - EXERCÍCIO 08\n");
 
     float num = 0;
 

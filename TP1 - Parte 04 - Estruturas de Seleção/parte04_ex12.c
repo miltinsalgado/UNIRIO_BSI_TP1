@@ -1,5 +1,6 @@
 /*
-    4.12) Leia um caractere op, representando uma operação aritmética (+, -, *, /) e, em seguida, dois números reais a e b. 
+    Parte 04 - Exercício 12
+    Leia um caractere op, representando uma operação aritmética (+, -, *, /) e, em seguida, dois números reais a e b. 
     Imprima a expressão matemática junto com o seu resultado no formato:
 
     a op b = resultado
@@ -16,7 +17,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.12\n");
+    printf("PARTE 04 - EXERCÍCIO 12\n");
 
     char op = ' ';
     float a = 0, b = 0, resultado;

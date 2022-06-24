@@ -1,5 +1,6 @@
 /*
-    2.6) Leia o valor do salário de uma pessoa e o valor de um financiamento pretendido. 
+    Lista 02 - Exercício 06
+    Leia o valor do salário de uma pessoa e o valor de um financiamento pretendido. 
     Caso o financiamento seja menor ou igual a 5 vezes o salário da pessoa, o programa deverá imprimir
     "Financiamento Concedido"; senão, ele deverá imprimir "Financiamento Negado".
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.6\n");
+    printf("LISTA 02 - EXERCÍCIO 06\n");
 
     float salario = 0, financiamento = 0;
 

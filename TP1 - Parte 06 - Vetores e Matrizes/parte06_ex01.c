@@ -1,5 +1,6 @@
 /*
-    6.1) Leia um vetor v com 10 números inteiros. Em seguida, imprima esses números na ordem inversa.
+    Parte 06 - Exercício 01
+    Leia um vetor v com 10 números inteiros. Em seguida, imprima esses números na ordem inversa.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.1\n");
+    printf("PARTE 06 - EXERCÍCIO 01\n");
 
     const int tamanho_v = 10;
     int v[tamanho_v];

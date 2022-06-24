@@ -1,5 +1,6 @@
 /*
-    2.13)  Leia  as  coordenadas  dos  pontos  P1,  P2  e  P3.
+    Lista 02 - Exercício 13
+    Leia  as  coordenadas  dos  pontos  P1,  P2  e  P3.
     Em  seguida,  informe  se  esses  pontos  formam  um  triângulo  ou  não.  
     Caso  positivo,  imprima  o  perímetro  P  e  a  área  A  do  triângulo  onde  A  pode  ser  calculado como:
     A = (p * (p - a) * (p - b) * (p - c))^1/2 
@@ -13,7 +14,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.13\n");
+    printf("LISTA 02 - EXERCÍCIO 13\n");
 
     float x1 = 0, y1 = 0, x2 = 0, y2 = 0, x3 = 0, y3 = 0;
 

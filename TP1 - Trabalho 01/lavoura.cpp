@@ -1,5 +1,5 @@
 /*
-    1.1) Programa: lavoura.cpp (2,0 pontos) 
+    Trabalho 01 - Questão 01 - Programa: lavoura.cpp (2,0 pontos) 
     Uma  empresa  utiliza  aviões  para  pulverizar  lavouras.  O  valor  do  serviço  cobrado  pela 
     empresa  depende  da  área  a  ser  pulverizada  e  do  tipo  da  pulverização,  conforme  tabela  a seguir: 
 
@@ -37,7 +37,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.1 LAVOURA\n");
+    printf("TRABALHO 01 - QUESTÃO 01\n");
 
     printf("\nTipo da pulverização                    Valor");
     printf("\nE - ervas daninhas                      R$ 50,00 / acre");

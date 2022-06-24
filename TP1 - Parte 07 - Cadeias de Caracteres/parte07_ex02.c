@@ -1,5 +1,6 @@
 /*
-    7.2) Leia uma cadeia de caracteres e imprima a cadeia invertida. 
+    Parte 07 - Exercício 02
+    Leia uma cadeia de caracteres e imprima a cadeia invertida. 
     Não use strrev.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.2\n");
+    printf("PARTE 07 - EXERCÍCIO 02\n");
 
     char cadeia_caracteres[100] = "";
 

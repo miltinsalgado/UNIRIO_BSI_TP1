@@ -1,5 +1,6 @@
 /*
-    4.9) Leia um valor que representa um ano e imprima se ele é bissexto. 
+    Parte 04 - Exercício 09
+    Leia um valor que representa um ano e imprima se ele é bissexto. 
     Se ele não for bissexto, indique qual o próximo ano bissexto.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.9\n");
+    printf("PARTE 04 - EXERCÍCIO 09\n");
 
     int ano = 0, anos_faltantes = 0, proximo_ano_bissexto = 0;
 

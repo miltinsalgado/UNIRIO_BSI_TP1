@@ -1,5 +1,6 @@
 /*
-    1.1) Leia o lado de um cubo, calcule e imprima seu volume.
+    Lista 01 - Exercício 01
+    Leia o lado de um cubo, calcule e imprima seu volume.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.1\n");
+    printf("LISTA 01 - EXERCÍCIO 01\n");
 
     float lado = 0;
 

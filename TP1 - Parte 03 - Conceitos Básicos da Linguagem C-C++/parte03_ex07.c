@@ -1,7 +1,7 @@
 /*
-    3.7) Leia dois valores: salário e percentual de aumento. Em
-    seguida, aplique o percentual sobre o salário e imprima o
-    salário antigo, o percentual de aumento e o novo salário.
+    Parte 03 - Exercício 07
+    Leia dois valores: salário e percentual de aumento. 
+    Em seguida, aplique o percentual sobre o salário e imprima o salário antigo, o percentual de aumento e o novo salário.
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.7\n");
+    printf("PARTE 03 - EXERCÍCIO 07\n");
 
     float salario = 0, percentual_aumento = 0;
 

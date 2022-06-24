@@ -1,7 +1,7 @@
 /*
-    3.10) Leia um número inteiro que representa um tempo em
-    segundos. Em seguida, imprima esse tempo em horas,
-    minutos e segundos.
+    Parte 03 - Exercício 10
+    Leia um número inteiro que representa um tempo em segundos. 
+    Em seguida, imprima esse tempo em horas, minutos e segundos.
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.10\n");
+    printf("PARTE 03 - EXERCÍCIO 10\n");
 
     int tempo = 0;
 

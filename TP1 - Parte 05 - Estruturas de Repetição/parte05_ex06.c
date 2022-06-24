@@ -1,5 +1,6 @@
 /*
-    5.6) Altere o exercícios 5.5 para que sejam impressos e somados somente os números pares no intervalo de a..b.
+    Parte 05 - Exercício 06
+    Altere o exercícios 05 para que sejam impressos e somados somente os números pares no intervalo de a..b.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.6\n");
+    printf("PARTE 05 - EXERCÍCIO 06\n");
 
     int a = 0, b = 0, cont = 0, aux = 0, soma = 0;
 

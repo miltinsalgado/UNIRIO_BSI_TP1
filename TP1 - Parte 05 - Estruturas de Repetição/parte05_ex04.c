@@ -1,5 +1,6 @@
 /*
-    5.4) Implemente em C/C++ o algoritmo de impressão do somatório dos números inteiros lidos do usuário. 
+    Parte 05 - Exercício 04
+    Implemente em C/C++ o algoritmo de impressão do somatório dos números inteiros lidos do usuário. 
     A leitura dos números deve parar quando o usuário digitar zero.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.4\n");
+    printf("PARTE 05 - EXERCÍCIO 04\n");
 
     int n = -1, soma = 0;
 

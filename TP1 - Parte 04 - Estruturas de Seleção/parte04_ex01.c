@@ -1,5 +1,6 @@
 /*
-    4.1) Converta o algoritmo do cálculo da média para C/C++.
+    Parte 04 - Exercício 01
+    Converta o algoritmo do cálculo da média para C/C++.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.1\n");
+    printf("PARTE 04 - EXERCÍCIO 01\n");
 
     float p1 = 0, p2 = 0;
     

@@ -1,5 +1,5 @@
 /*
-    1.4) Programa: sequencia.cpp (3,0 pontos) 
+    Trabalho 01 - Questão 04 - Programa: sequencia.cpp (3,0 pontos) 
     Crie  um  programa  C  para  ler  uma  sequência  S  de  k  números  inteiros,  onde  k  é  fornecido 
     pelo usuário (S = {n1, n2, n3, n4, ..., nk}). 
     Em seguida, o programa deve verificar se existem 
@@ -49,7 +49,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.4 SEQUENCIA\n");
+    printf("TRABALHO 01 - QUESTÃO 04\n");
 
     int k = 0;
 

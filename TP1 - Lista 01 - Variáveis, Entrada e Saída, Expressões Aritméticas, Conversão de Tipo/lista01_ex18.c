@@ -1,5 +1,6 @@
 /*
-    1.18) Leia um número n com 8 dígitos, separe o dia, mês e ano do número lido, mostrando-os na tela.
+    Lista 01 - Exercício 18
+    Leia um número n com 8 dígitos, separe o dia, mês e ano do número lido, mostrando-os na tela.
     Exemplo: 25031949 imprime 25/03/1959
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.18\n");
+    printf("LISTA 01 - EXERCÍCIO 18\n");
 
     int n = 0;
 

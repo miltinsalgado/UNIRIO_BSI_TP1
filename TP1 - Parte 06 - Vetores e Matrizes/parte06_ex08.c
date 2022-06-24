@@ -1,5 +1,6 @@
 /*
-    6.8) Leia uma matriz 2x3 de números inteiros e imprima o somatório de cada linha e o somatório total.
+    Parte 06 - Exercício 08
+    Leia uma matriz 2x3 de números inteiros e imprima o somatório de cada linha e o somatório total.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.8\n");
+    printf("PARTE 06 - EXERCÍCIO 08\n");
 
     int matriz[2][3];
 

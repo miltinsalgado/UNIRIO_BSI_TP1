@@ -1,5 +1,6 @@
 /*
-    4.2) Leia dois valores inteiros a e b. Em seguida, imprima primeiro o menor valor e, depois, o maior valor.
+    Parte 04 - Exercício 02
+    Leia dois valores inteiros a e b. Em seguida, imprima primeiro o menor valor e, depois, o maior valor.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.2\n");
+    printf("PARTE 04 - EXERCÍCIO 02\n");
 
     int a = 0, b = 0;
 

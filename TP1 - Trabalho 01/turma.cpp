@@ -1,5 +1,5 @@
 /*
-    1.3) Programa: turma.cpp (3,0 pontos)
+    Trabalho 01 - Questão 03 - Programa: turma.cpp (3,0 pontos)
     Um  professor  ministra  aulas  de  Programação  para  duas  turmas  (turma  A  e  turma  B).    
     Por um  erro  no  sistema  acadêmico,  alguns  alunos  que  se  inscreveram  na  turma  A,  
     também  foram  inscritos  na  turma  B.
@@ -26,7 +26,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.3 TURMA\n");
+    printf("TRABALHO 01 - QUESTÃO 03\n");
 
     int n = 0, k = 0;
 

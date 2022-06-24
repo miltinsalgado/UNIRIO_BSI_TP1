@@ -1,5 +1,6 @@
 /*
-    5.5) Leia dois números inteiros a e b e imprima todos os valores no intervalo a..b e o somatório dos valores a..b. 
+    Parte 05 - Exercício 05
+    Leia dois números inteiros a e b e imprima todos os valores no intervalo a..b e o somatório dos valores a..b. 
     Se a > b, troque a com b.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.5\n");
+    printf("PARTE 05 - EXERCÍCIO 05\n");
 
     int a = 0, b = 0, cont = 0, aux = 0, soma = 0;
 

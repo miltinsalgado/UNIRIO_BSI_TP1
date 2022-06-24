@@ -1,8 +1,7 @@
 /*
-    3.3) Crie um programa com duas variáveis inteiras
-    inicializadas e imprima seus valores. Em seguida troque o
-    valor de uma variável com a outra e imprima novamente os
-    valores.
+    Parte 03 - Exercício 03
+    Crie um programa com duas variáveis inteiras inicializadas e imprima seus valores. 
+    Em seguida troque o valor de uma variável com a outra e imprima novamente os valores.
 */
 
 #include <stdio.h>
@@ -11,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.3\n");
+    printf("PARTE 03 - EXERCÍCIO 03\n");
 
     int a = 10, b = 5;
 

@@ -1,5 +1,6 @@
 /*
-    6.5) Leia um número n e crie um vetor notas de tamanho n.
+    Parte 06 - Exercício 05
+    Leia um número n e crie um vetor notas de tamanho n.
     Em seguida, leia as notas de n alunos. 
     Por fim, imprima a média da turma e os alunos que tiraram acima da média.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.5\n");
+    printf("PARTE 06 - EXERCÍCIO 05\n");
 
     int n = 0;
 

@@ -1,5 +1,6 @@
 /*
-    5.11) Leia um número inteiro n e imprima a soma dos dígitos que compõem esse número. 
+    Parte 05 - Exercício 11
+    Leia um número inteiro n e imprima a soma dos dígitos que compõem esse número. 
     Dica: use o % para recuperar os dígitos do número.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.11\n");
+    printf("PARTE 05 - EXERCÍCIO 11\n");
 
     int n = 0, soma_digitos = 0;
 

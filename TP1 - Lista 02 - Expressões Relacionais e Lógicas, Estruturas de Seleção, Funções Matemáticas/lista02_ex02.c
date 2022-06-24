@@ -1,5 +1,6 @@
 /*
-    2.2) Leia um número inteiro n e informe se ele é divisível por 3 e por 7.
+    Lista 02 - Exercício 02
+    Leia um número inteiro n e informe se ele é divisível por 3 e por 7.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.2\n");
+    printf("LISTA 02 - EXERCÍCIO 02\n");
 
     int num = 0;
 

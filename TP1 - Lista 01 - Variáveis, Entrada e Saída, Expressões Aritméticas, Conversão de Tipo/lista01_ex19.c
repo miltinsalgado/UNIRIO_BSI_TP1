@@ -1,5 +1,6 @@
 /*
-    1.19) Leia um número inteiro n de 100 a 999 e imprima a soma dos dígitos que compõem o número.
+    Lista 01 - Exercício 19
+    Leia um número inteiro n de 100 a 999 e imprima a soma dos dígitos que compõem o número.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.19\n");
+    printf("LISTA 01 - EXERCÍCIO 19\n");
 
     int n = 0;
 

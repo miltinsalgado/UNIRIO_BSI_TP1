@@ -1,5 +1,6 @@
 /*
-    6.2) Leia um vetor v com 10 números inteiros. Em seguida, imprima o somatório dos números desse vetor.
+    Parte 06 - Exercício 02
+    Leia um vetor v com 10 números inteiros. Em seguida, imprima o somatório dos números desse vetor.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.2\n");
+    printf("PARTE 06 - EXERCÍCIO 02\n");
 
     const int tamanho_v = 10;
     int v[tamanho_v], soma = 0;

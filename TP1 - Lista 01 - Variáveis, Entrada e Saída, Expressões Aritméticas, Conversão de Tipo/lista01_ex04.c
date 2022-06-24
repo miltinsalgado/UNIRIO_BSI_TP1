@@ -1,5 +1,6 @@
 /*
-    1.4) Leia o valor de um produto e o percentual de desconto e exiba seu novo valor com o desconto e o valor descontado.
+    Lista 01 - Exercício 04
+    Leia o valor de um produto e o percentual de desconto e exiba seu novo valor com o desconto e o valor descontado.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.4\n");
+    printf("LISTA 01 - EXERCÍCIO 04\n");
 
     float valor = 0, percentual_desconto = 0;
 

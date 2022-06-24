@@ -1,5 +1,6 @@
 /*
-    4.8) Calcule as raízes de uma equação do 2º grau, a partir dos coeficientes a, b e c. 
+    Parte 04 - Exercício 08
+    Calcule as raízes de uma equação do 2º grau, a partir dos coeficientes a, b e c. 
     Se o valor de a for zero ou delta for negativo, imprima mensagens de erro.
 */
 
@@ -11,7 +12,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.8\n");
+    printf("PARTE 04 - EXERCÍCIO 08\n");
 
     float a = 0, b = 0, c = 0;
 

@@ -1,5 +1,6 @@
 /*
-    3.extra.3) Crie um programa para uma loja de tintas. 
+    Parte 03 - Exercício Extra 03
+    Crie um programa para uma loja de tintas. 
     O programa deverá pedir o tamanho em metros da área a ser pintada (valor inteiro) e o valor da lata de tinta (valor real). 
     Considere que a  cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 12 litros. 
     Ao final imprima a quantidade de litros (inteiro), a quantidade de latas e o valor total a pagar.
@@ -11,7 +12,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.EXTRA.3\n");
+    printf("PARTE 03 - EXERCÍCIO EXTRA 03\n");
 
     int tamanho_area_pintada = 0;
     float valor_lata_tinta = 0;

@@ -1,5 +1,6 @@
 /*
-    1.9) Calcule e imprima o volume de um cilindro que será enchido de água para um espetáculo de mágica. 
+    Lista 01 - Exercício 09
+    Calcule e imprima o volume de um cilindro que será enchido de água para um espetáculo de mágica. 
     Para isso, seu programa deverá ler o raio e a altura do cilindro. 
     Considere: 
     Vc = pi * r^2 * h
@@ -11,7 +12,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.9\n");
+    printf("LISTA 01 - EXERCÍCIO 09\n");
 
     float raio = 0, altura = 0;
 

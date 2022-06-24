@@ -1,5 +1,6 @@
 /*
-    6.3) Leia um vetor v com 10 números inteiros. Em seguida imprima todos os pares e, depois, todos os ímpares do vetor.
+    Parte 06 - Exercício 03
+    Leia um vetor v com 10 números inteiros. Em seguida imprima todos os pares e, depois, todos os ímpares do vetor.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.3\n");
+    printf("PARTE 06 - EXERCÍCIO 03\n");
 
     const int tamanho_v = 10;
     int v[tamanho_v];

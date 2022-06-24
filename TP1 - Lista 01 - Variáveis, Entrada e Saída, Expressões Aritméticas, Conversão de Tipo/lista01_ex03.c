@@ -1,5 +1,6 @@
 /*
-    1.3) Leia o peso e altura de uma pessoa, calcule e imprima seu IMC. Sabe-se que IMC = peso/altura^2.
+    Lista 01 - Exercício 03
+    Leia o peso e altura de uma pessoa, calcule e imprima seu IMC. Sabe-se que IMC = peso/altura^2.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.3\n");
+    printf("LISTA 01 - EXERCÍCIO 03\n");
 
     float peso = 0, altura = 0;
 

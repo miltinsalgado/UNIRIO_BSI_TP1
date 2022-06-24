@@ -1,5 +1,6 @@
 /*
-    5.10) Leia um valor inteiro n e, logo após, solicite a leitura de n números inteiros. 
+    Parte 05 - Exercício 10
+    Leia um valor inteiro n e, logo após, solicite a leitura de n números inteiros. 
     Ao final, informe qual o foi o maior e o menor número lido.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.10\n");
+    printf("PARTE 05 - EXERCÍCIO 10\n");
 
     int n = 0, m = 0, maior = 0, menor = 0;
 

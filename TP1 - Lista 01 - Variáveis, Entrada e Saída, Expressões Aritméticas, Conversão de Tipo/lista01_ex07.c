@@ -1,5 +1,6 @@
 /*
-    1.7) Leia o raio de uma esfera, calcule e imprima seu volume, sabendo que: 
+    Lista 01 - Exercício 07
+    Leia o raio de uma esfera, calcule e imprima seu volume, sabendo que: 
     Ve = 4/3 * pi * r^3) / 3
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.7\n");
+    printf("LISTA 01 - EXERCÍCIO 07\n");
 
     float raio = 0, pi = 3.14;
 

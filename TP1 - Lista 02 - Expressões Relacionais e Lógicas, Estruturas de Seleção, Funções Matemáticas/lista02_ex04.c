@@ -1,5 +1,6 @@
 /*
-    2.4) Leia dois números inteiros n e k e informe se n é divisível por k.
+    Lista 02 - Exercício 04
+    Leia dois números inteiros n e k e informe se n é divisível por k.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.4\n");
+    printf("LISTA 02 - EXERCÍCIO 04\n");
 
     int n = 0, k = 0;
 

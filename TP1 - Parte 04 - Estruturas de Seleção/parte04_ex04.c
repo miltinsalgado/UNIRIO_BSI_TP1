@@ -1,5 +1,6 @@
 /*
-    4.4) Leia um valor inteiro n e imprima uma mensagem dizendo se n é par ou ímpar.
+    Parte 04 - Exercício 04
+    Leia um valor inteiro n e imprima uma mensagem dizendo se n é par ou ímpar.
 */
 
 #include <stdio.h>
@@ -8,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.4\n");
+    printf("PARTE 04 - EXERCÍCIO 04\n");
 
     int n = 0;
 

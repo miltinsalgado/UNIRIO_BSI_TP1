@@ -1,6 +1,7 @@
 /*
     ! DESAFIO !
-    1.25) Uma loja vende seus produtos com uma entrada mais duas prestações, sendo que:
+    Lista 01 - Exercício 25
+    Uma loja vende seus produtos com uma entrada mais duas prestações, sendo que:
     • A entrada deve ser maior ou igual às prestações.
     • As duas prestações devem ter valor igual.
     • As prestações devem ter um valor inteiro (sem centavos).
@@ -17,7 +18,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.25\n");
+    printf("LISTA 01 - EXERCÍCIO 25\n");
 
     float valor_produto = 0;
 

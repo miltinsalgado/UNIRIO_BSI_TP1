@@ -1,8 +1,7 @@
 /*
-    3.6) Leia a distância percorrida por um carro, o tempo gasto
-    e a quantidade de gasolina consumida. Em seguida, imprima
-    a velocidade média (KM/h) e o consumo de combustível
-    (Km/l).
+    Parte 03 - Exercício 06
+    Leia a distância percorrida por um carro, o tempo gasto e a quantidade de gasolina consumida. 
+    Em seguida, imprima a velocidade média (KM/h) e o consumo de combustível (Km/l).
 */
 
 #include <stdio.h>
@@ -11,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.6\n");
+    printf("PARTE 03 - EXERCÍCIO 06\n");
 
     float distancia = 0, tempo = 0, quantidade_gasolina = 0;
 

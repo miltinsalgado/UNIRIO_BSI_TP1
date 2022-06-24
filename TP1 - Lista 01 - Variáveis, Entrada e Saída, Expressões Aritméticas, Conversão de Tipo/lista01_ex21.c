@@ -1,5 +1,6 @@
 /*
-    1.21) O número 3025 possui a seguinte característica: 30 + 25 = 55 => 55*55 = 3025. 
+    Lista 01 - Exercício 21
+    O número 3025 possui a seguinte característica: 30 + 25 = 55 => 55*55 = 3025. 
     Faça um programa para ler um número n inteiro de 4 dígitos e imprimir a primeira parte do número, 
     a segunda parte e o valor da multiplicação das partes.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.21\n");
+    printf("LISTA 01 - EXERCÍCIO 21\n");
 
     float t = 0, s = 1000;
 

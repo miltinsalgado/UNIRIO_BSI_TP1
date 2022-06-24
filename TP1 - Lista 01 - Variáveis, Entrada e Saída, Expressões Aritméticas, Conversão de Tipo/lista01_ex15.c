@@ -1,5 +1,6 @@
 /*
-    1.15) Leia 3 variáveis inteiras a, b e c e faça um "rodízio" entre elas. 
+    Lista 01 - Exercício 10
+    Leia 3 variáveis inteiras a, b e c e faça um "rodízio" entre elas. 
     Ao final, a variável b deverá ter o valor da variável a, 
     a variável c deverá ter o valor da variável b e a variável a deverá ter o valor da variável c.
 
@@ -11,7 +12,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.15\n");
+        printf("LISTA 01 - EXERCÍCIO 15\n");
 
     int a = 0, b = 0, c = 0;
 

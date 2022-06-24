@@ -1,6 +1,6 @@
 /*
-    7.6) Leia duas cadeias de caracteres 
-    e diga se elas são iguais ou se a primeira vem antes ou depois da segunda em ordem alfabética.
+    Parte 07 - Exercício 06
+    Leia duas cadeias de caracteres e diga se elas são iguais ou se a primeira vem antes ou depois da segunda em ordem alfabética.
 */
 
 #include <stdio.h>
@@ -11,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.6\n");
+    printf("PARTE 07 - EXERCÍCIO 06\n");
 
     char cadeia_caracteres_1[100] = "", cadeia_caracteres_2[100] = "";
 

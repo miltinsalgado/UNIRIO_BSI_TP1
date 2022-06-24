@@ -1,5 +1,6 @@
 /*
-    7.4) Leia uma cadeia de caracteres e, em seguida, gere outra cadeia invertendo os caracteres da primeira
+    Parte 07 - Exercício 04
+    Leia uma cadeia de caracteres e, em seguida, gere outra cadeia invertendo os caracteres da primeira
     (primeiro caracter vai para última posição, segundo para a penúltima, e assim por diante).
     Imprima as duas cadeias. 
     Não use strrev.
@@ -12,7 +13,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 7.4\n");
+    printf("PARTE 07 - EXERCÍCIO 04\n");
 
     char cadeia_caracteres_1[100] = "", cadeia_caracteres_2[100] = "";
 

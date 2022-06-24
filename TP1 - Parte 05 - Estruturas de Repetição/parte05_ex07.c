@@ -1,5 +1,6 @@
 /*
-    5.7) Leia valores inteiros positivos até que o usuário digite zero. 
+    Parte 05 - Exercício 07
+    Leia valores inteiros positivos até que o usuário digite zero. 
     Ao final, imprima a média aritmética dos números lidos. 
     Se o usuário digitar um número negativo, ignore esse valor.
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.7\n");
+    printf("PARTE 05 - EXERCÍCIO 07\n");
 
     int num = 0, cont = 0, soma = 0, media = 0;
 

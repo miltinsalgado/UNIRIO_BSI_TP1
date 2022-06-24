@@ -1,5 +1,6 @@
 /*
-    3.extra.1) Crie um programa que lê um valor real n e imprime n arredondado para cima ou para baixo. 
+    Parte 03 - Exercício Extra 01
+    Crie um programa que lê um valor real n e imprime n arredondado para cima ou para baixo. 
     Se a parte decimal >= 0.5, então arredonda pra cima, senão para baixo. 
     Importante: implemente sem usar comandos de seleção (para aqueles que já conhecem).
 */
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.EXTRA.1\n");
+    printf("PARTE 03 - EXERCÍCIO EXTRA 01\n");
 
     float n = 0;
 

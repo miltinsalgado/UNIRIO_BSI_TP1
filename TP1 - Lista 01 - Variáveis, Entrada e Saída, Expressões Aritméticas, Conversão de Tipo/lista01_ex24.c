@@ -1,6 +1,7 @@
 /*
     ! DESAFIO !
-    1.24) Sabendo que um caixa eletrônico possui notas de R$ 10, R$ 20, R$ 50 e R$ 100, 
+    Lista 01 - Exercício 24
+    Sabendo que um caixa eletrônico possui notas de R$ 10, R$ 20, R$ 50 e R$ 100, 
     leia um valor que representa a quantidade de dinheiro que o cliente deseja sacar 
     e imprima a quantidade necessária de cada uma dessas notas para formar o valor desejado. 
     A quantidade total de notas deve ser a mínima possível. 
@@ -14,7 +15,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.24\n");
+    printf("LISTA 01 - EXERCÍCIO 24\n");
 
     int valor = 0;
 

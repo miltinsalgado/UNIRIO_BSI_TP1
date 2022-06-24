@@ -1,5 +1,6 @@
 /*
-    5.12) Leia um número inteiro n e verifique se ele é ou não um número primo.
+    Parte 05 - Exercício 12
+    Leia um número inteiro n e verifique se ele é ou não um número primo.
 */
 
 #include <stdio.h>
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.12\n");
+    printf("PARTE 05 - EXERCÍCIO 12\n");
 
     int n = 0;
     bool primo = true;

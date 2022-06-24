@@ -1,5 +1,6 @@
 /*
-    4.11) Implemente em C/C++ o algoritmo apresentado anteriormente usando o comando switch.
+    Parte 04 - Exercício 11
+    Implemente em C/C++ o algoritmo apresentado anteriormente usando o comando switch.
 */
 
 #include <stdio.h>
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 4.11\n");
+    printf("PARTE 04 - EXERCÍCIO 11\n");
 
     int n = 0;
 

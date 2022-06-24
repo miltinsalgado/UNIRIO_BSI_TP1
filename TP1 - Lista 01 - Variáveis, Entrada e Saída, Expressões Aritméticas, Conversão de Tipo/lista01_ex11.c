@@ -1,5 +1,5 @@
 /*
-    1.11) Leia o comprimento e a largura de um terreno retangular, além do preço do metro quadrado de grama. 
+    Lista 01 - Exercício 11 Leia o comprimento e a largura de um terreno retangular, além do preço do metro quadrado de grama. 
     Depois, calcule e imprima:
     a) A área a ser coberta de grama.
     b) O custo total de grama para gramar o terreno.
@@ -11,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.11\n");
+    printf("LISTA 01 - EXERCÍCIO 11\n");
 
     float comprimento = 0, largura = 0, preco_metro_quadrado = 0;
 

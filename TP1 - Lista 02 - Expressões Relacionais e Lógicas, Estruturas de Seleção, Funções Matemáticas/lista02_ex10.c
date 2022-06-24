@@ -1,5 +1,6 @@
 /*
-    2.10) Leia um número n e teste: se n for negativo, eleve n ao quadrado; caso contrário, calcule a raiz quadrada de n. 
+    Lista 02 - Exercício 10
+    Leia um número n e teste: se n for negativo, eleve n ao quadrado; caso contrário, calcule a raiz quadrada de n. 
     Ao final, imprima o resultado.
 */
 
@@ -10,7 +11,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.10\n");
+    printf("LISTA 02 - EXERCÍCIO 10\n");
 
     float n = 0;
 

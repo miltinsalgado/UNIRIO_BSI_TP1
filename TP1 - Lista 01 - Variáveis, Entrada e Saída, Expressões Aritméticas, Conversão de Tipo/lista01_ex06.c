@@ -1,5 +1,6 @@
 /*
-    1.6) Leia uma temperatura em graus Celsius e converta-a em graus Fahrenheit, usando a fórmula: 
+    Lista 01 - Exercício 06
+    Leia uma temperatura em graus Celsius e converta-a em graus Fahrenheit, usando a fórmula: 
     F = 32 + ((212 - 32) / 100) * C
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.6\n");
+    printf("LISTA 01 - EXERCÍCIO 06\n");
 
     float temperatura_celsius = 0;
 

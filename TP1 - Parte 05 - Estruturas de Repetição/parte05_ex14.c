@@ -1,5 +1,6 @@
 /*
-    5.14) Leia um número n e imprima n^k para k variando de 1 a n. 
+    Parte 05 - Exercício 14
+    Leia um número n e imprima n^k para k variando de 1 a n. 
     Se n < 1 emita uma mensagem de erro. Exemplo: n = 5.
     5^1= 5
     5^2 = 25
@@ -14,7 +15,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 5.14\n");
+    printf("PARTE 05 - EXERCÍCIO 14\n");
 
     int n = 0, potencia = 0;
 

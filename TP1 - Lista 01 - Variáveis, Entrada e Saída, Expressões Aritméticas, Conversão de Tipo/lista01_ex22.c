@@ -1,5 +1,6 @@
 /*
-    1.22) Leia um número inteiro a com 4 dígitos e calcule outro número inteiro b que deverá ser o número a invertido. 
+    Lista 01 - Exercício 22
+    Leia um número inteiro a com 4 dígitos e calcule outro número inteiro b que deverá ser o número a invertido. 
     Exemplo: se a = 5732 então b = 2375.
 */
 
@@ -9,7 +10,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 1.22\n");
+    printf("LISTA 01 - EXERCÍCIO 22\n");
 
     int n = 0;
 

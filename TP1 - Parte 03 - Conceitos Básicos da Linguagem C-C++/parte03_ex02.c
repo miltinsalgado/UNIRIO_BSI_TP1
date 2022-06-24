@@ -1,6 +1,6 @@
 /*
-    3.2) Altere o tipo das duas variáveis do exercício 3.1 para 
-    ponto flutuante.
+    Parte 03 - Exercício 02
+    Altere o tipo das duas variáveis do exercício 3.1 para ponto flutuante.
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 3.2\n");
+    printf("PARTE 03 - EXERCÍCIO 02\n");
 
     float a = 10, b = 4;
 

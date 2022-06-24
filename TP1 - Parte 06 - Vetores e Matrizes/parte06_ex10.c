@@ -1,5 +1,6 @@
 /*
-    6.10) Leia dois números n e m e cria uma matriz de inteiros com n linhas e m colunas. 
+    Parte 06 - Exercício 10
+    Leia dois números n e m e cria uma matriz de inteiros com n linhas e m colunas. 
     Em seguida, leia os valores da matriz e, por fim, imprima a matriz por coluna.
     Exemplo:
     2 4 6
@@ -16,7 +17,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 6.10\n");
+    printf("PARTE 06 - EXERCÍCIO 10\n");
 
     int n = 0, m = 0;
 

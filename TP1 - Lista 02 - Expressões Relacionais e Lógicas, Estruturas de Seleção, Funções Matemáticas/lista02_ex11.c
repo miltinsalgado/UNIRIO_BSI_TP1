@@ -1,5 +1,6 @@
 /*
-    2.11) O número 3025 possui a seguinte característica: 30 + 25 = 55 => 55*55 = 3025. 
+    Lista 02 - Exercício 11
+    O número 3025 possui a seguinte característica: 30 + 25 = 55 => 55*55 = 3025. 
     Fazer um programa para ler um número n inteiro de 4 dígitos e imprimir se o número tem ou não essa característica. 
     Se n não tiver 4 dígitos, imprima uma mensagem de erro.
 */
@@ -11,7 +12,7 @@
 int main()
 {
     setlocale(LC_ALL, "");
-    printf("EXERCÍCIO 2.11\n");
+    printf("LISTA 02 - EXERCÍCIO 11\n");
 
     int n = 0;
 
