@@ -36,21 +36,23 @@ int main()
     printf("Digite a coordenada y do ponto P3: ");
     scanf("%f", &y3);
 
-    float a = sqrt((pow(x1 - y1, 2)) - (pow(x2 - y2, 2)));
-    float b = sqrt((pow(x1 - y1, 2)) - (pow(x3 - y3, 2)));
-    float c = sqrt((pow(x2 - y2, 2)) - (pow(x3 - y3, 2)));
+    float a = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
+    float b = sqrt(pow(x2 - x3, 2) + pow(y2 - y3, 2));
+    float c = sqrt(pow(x1 - x3, 2) + pow(y1 - y3, 2));
 
     if (a + b > c && a + c > b && b + c > a)
     {
-        printf("\nOs pontos digitados formam um triângulo!");
+        puts("\nOs pontos digitados formam um triângulo!");
+
         float p = (a + b + c) / 2;
         float A = sqrt(p * (p - a) * (p - b) * (p - c));
+
         printf("\nPerímetro do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, p);
         printf("\nÁrea do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, A);
     }
 
     else
-        printf("\nOs pontos digitados não formam um triângulo!");
+        puts("\nOs pontos digitados não formam um triângulo!");
 
     printf("\n\n");
 }

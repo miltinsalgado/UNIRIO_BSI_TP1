@@ -1,7 +1,7 @@
 /*
     Lista 02 - Exercício 12
     Leia as coordenadas dos pontos P1 (x1, y1) e P2 (x2, y2) e calcule a distância entre P1 e P2. 
-    d = (((x1 - x2)^2 +(y1 - y2)^2) ^1/2
+    d = (((x1 - x2)^2 + (y1 - y2)^2) ^ 1/2
 */
 
 #include <stdio.h>
@@ -27,9 +27,9 @@ int main()
     printf("Digite a coordenada y do ponto P2: ");
     scanf("%f", &y2);
 
-    float d = sqrt((pow(x1 - y1, 2)) - (pow(x2 - y2, 2)));
+    float d = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
 
-    printf("\nDistancia entre os pontos P1 (%.2f, %.2f) e P2 (%.2f, %.2f): %.2f", x1, y1, x2, y2, d);
+    printf("\nDistância entre os pontos P1 (%.2f, %.2f) e P2 (%.2f, %.2f): %.2f", x1, y1, x2, y2, d);
 
     printf("\n\n");
 }
