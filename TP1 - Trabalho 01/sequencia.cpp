@@ -63,7 +63,7 @@ int main()
 
     } while (k < 3);
 
-    int S[k];
+    int s[k];
 
     printf("\nDigite os números inteiros nas posições correspondentes da sequência:");
     printf("\n");
@@ -71,7 +71,7 @@ int main()
     for (int i = 0; i < k; i++)
     {
         printf("Número inteiro da posição %d da sequência: ", i);
-        scanf("%d", &S[i]);
+        scanf("%d", &s[i]);
     }
 
     int t = 0;
@@ -95,15 +95,15 @@ int main()
     for (int i = 0; i < k; i++)
     {
         if (i == k - 1)
-            printf("%d }", S[i]);
+            printf("%d }", s[i]);
         
         else
-            printf("%d, ", S[i]);
+            printf("%d, ", s[i]);
     }
 
     printf("\nt = %d", t);
 
-    int s[t], aux = 0, cont = 0;
+    int sub_s[t], aux = 0, cont = 0;
     bool subsequencia_igual = false, existe = false, numeros_iguais = false;
 
     for (int i = 0; i < k; i++)
@@ -114,7 +114,7 @@ int main()
             break;
 
         for (int j = i, l = 0; j < i + t; j++, l++)
-            s[l] = S[j];
+            sub_s[l] = s[j];
 
         for (int j = 0; j < i; j++)
         {
@@ -122,7 +122,7 @@ int main()
 
             for (int l = j, m = 0; l < j + t; l++, m++)
             {
-                if (s[m] != S[l])
+                if (sub_s[m] != s[l])
                 {
                     subsequencia_igual = false;
                     break;
@@ -145,7 +145,7 @@ int main()
 
             for (int l = j, m = 0; l < j + t; l++, m++)
             {
-                if (s[m] != S[l])
+                if (sub_s[m] != s[l])
                 {
                     subsequencia_igual = false;
                     break;
@@ -162,7 +162,7 @@ int main()
             printf("\n");
 
             for (int j = 0; j < t; j++)
-                printf("%d ", s[j]);
+                printf("%d ", sub_s[j]);
 
             printf("- %dx", cont);
         }

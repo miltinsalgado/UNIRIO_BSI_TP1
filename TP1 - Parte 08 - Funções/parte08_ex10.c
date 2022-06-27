@@ -2,13 +2,13 @@
     Parte 08 - Exercício 10
     Crie a função moldura que recebe como parâmetro a quantidade de linhas e colunas e desenha uma moldura com essas dimensões. 
     O número mínimo de linhas e colunas é 2.
-    Use os caracteres especiais definidos a seguir para desenhar a moldura:
-    ASCII 218 =? 
-    ASCII 191 = ?
-    ASCII 192 = ?
-    ASCII 217 = ?
-    ASCII 196 = ?
-    ASCII 179 = ?
+    Use os caracteres especiais definidos a seguir para desenhar a moldura (ver slides para visualizar):
+    ASCII 218
+    ASCII 191
+    ASCII 192
+    ASCII 217
+    ASCII 196
+    ASCII 179
 */
 
 #include <stdio.h>

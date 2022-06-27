@@ -11,7 +11,7 @@ int main()
     setlocale(LC_ALL, "");
     printf("PARTE 06 - EXERCÍCIO 02\n");
 
-    const int tamanho_v = 10;
+    int tamanho_v = 10;
     int v[tamanho_v], soma = 0;
 
     puts("\nDigite os números inteiros nas posições correspondentes:");

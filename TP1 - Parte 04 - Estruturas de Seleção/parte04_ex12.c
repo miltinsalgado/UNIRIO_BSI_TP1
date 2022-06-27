@@ -20,7 +20,7 @@ int main()
     printf("PARTE 04 - EXERCÍCIO 12\n");
 
     char op = ' ';
-    float a = 0, b = 0, resultado;
+    float a = 0, b = 0, resultado = 0;
     bool operacao_invalida = false;
 
     printf("\nDigite uma opção (+ | - | * | /): ");

@@ -14,7 +14,7 @@ int main()
 
     int n = 0;
 
-    printf("\nDigite um número inteiro de 8 dígitos: ");
+    printf("\nDigite um número inteiro com 8 dígitos: ");
     scanf("%d", &n);
 
     int dia = n / 1000000;

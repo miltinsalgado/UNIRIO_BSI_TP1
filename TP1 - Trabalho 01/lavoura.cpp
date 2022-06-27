@@ -32,7 +32,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <ctype.h>
 
 int main()
 {
@@ -73,9 +72,8 @@ int main()
                 printf("\nDigite o tipo de pulverização: ");
                 getchar();
                 scanf("%c", &tipo_pulverizacao);
-                tipo_pulverizacao = toupper(tipo_pulverizacao);
 
-                if (tipo_pulverizacao != 'E' && tipo_pulverizacao != 'G' && tipo_pulverizacao != 'B' && tipo_pulverizacao != 'A' && tipo_pulverizacao != 'F' && tipo_pulverizacao != 'H' && tipo_pulverizacao != 'T')
+                if ((tipo_pulverizacao != 'E' && tipo_pulverizacao != 'G' && tipo_pulverizacao != 'B' && tipo_pulverizacao != 'A' && tipo_pulverizacao != 'F' && tipo_pulverizacao != 'H' && tipo_pulverizacao != 'T') && (tipo_pulverizacao != 'e' && tipo_pulverizacao != 'g' && tipo_pulverizacao != 'b' && tipo_pulverizacao != 'a' && tipo_pulverizacao != 'f' && tipo_pulverizacao != 'h' && tipo_pulverizacao != 't'))
                 {
                     entrada_valida = false;
                     printf("\nO tipo de pulverização digitado não está presente na tabela! Por favor, digite novamente");
