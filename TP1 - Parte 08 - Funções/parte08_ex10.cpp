@@ -13,50 +13,30 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <ctype.h>
 
 void moldura(int linhas, int colunas)
 {
     setlocale(LC_ALL, "C");
-    for (int i = 0; i < linhas; i++)
+
+    putchar(218);
+    for (int i = 1; i <= colunas - 2; i++)
+        putchar(196);
+    putchar(191);
+
+    for (int i = 1; i <= linhas - 2; i++)
     {
-        printf("\n");
-        for (int j = 0; j < colunas; j++)
-        {
-            if (i == 0)
-            {
-                if (j == 0)
-                    putchar(218);
-                
-                else if (j != 0 && j != colunas - 1)
-                    putchar(196);
-
-                else if (j == colunas - 1)
-                    putchar(191);
-            }
-
-            else if (i != 0 && i != linhas - 1)
-            {
-                if (j == 0 || j == colunas - 1)
-                    putchar(179);
-
-                else
-                    putchar(' ');
-            }
-
-            else if (i == linhas - 1)
-            {
-                if (j == 0)
-                    putchar(192);
-                
-                else if (j != 0 && j != colunas - 1)
-                    putchar(196);
-
-                else if (j == colunas - 1)
-                    putchar(217);
-            }
-        }
+        putchar('\n');
+        putchar(179);
+        for (int j = 1; j <= colunas - 2 ; j++)
+            putchar(' ');
+        putchar(179);
     }
+
+    putchar('\n');
+    putchar(192);
+    for (int i = 1; i <= colunas - 2; i++)
+        putchar(196);
+    putchar(217);
 }
 
 int main()
