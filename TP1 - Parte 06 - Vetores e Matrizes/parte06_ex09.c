@@ -13,7 +13,7 @@ int main()
 
     int matriz[4][4];
 
-    puts("\nDigite os números inteiros das posições correspondentes:");
+    puts("\nDigite os números inteiros nos índices correspondentes:");
 
     for (int i = 0; i < 4; i++)
     {

@@ -26,7 +26,7 @@ float perimetro(float x1, float y1, float x2, float y2, float x3, float y3)
     float p = 0;
 
     if (a + b > c && a + c > b && b + c > a)
-        p = (a + b + c) / 2;
+        p = a + b + c;
 
     printf("\nPerímetro do triângulo de lados %.2f, %.2f e %.2f: ", a, b, c);
 

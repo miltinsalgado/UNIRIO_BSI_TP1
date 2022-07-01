@@ -15,12 +15,12 @@ int main()
 
     int tam = 0;
 
-    printf("\nDigite um número inteiro: ");
+    printf("\nDigite o tamanho do vetor: ");
     scanf("%d", &tam);
 
     int v[tam];
 
-    puts("\nDigite os números inteiros nas posições correspondentes:");
+    puts("\nDigite os números inteiros nos índices correspondentes: ");
 
     for (int i = 0; i < tam; i++)
     {

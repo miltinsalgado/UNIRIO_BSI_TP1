@@ -14,12 +14,12 @@ int main()
 
     int n = 0;
 
-    printf("\nDigite um número inteiro: ");
+    printf("\nDigite o tamanho do vetor: ");
     scanf("%d", &n);
 
     int v[n];
 
-    puts("\nDigite os números inteiros nas posições correspondentes:");
+    puts("\nDigite os números inteiros nos índices correspondentes:");
 
     for (int i = 0; i < n; i++)
     {

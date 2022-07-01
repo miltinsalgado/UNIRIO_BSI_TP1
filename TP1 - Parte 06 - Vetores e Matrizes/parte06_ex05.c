@@ -20,7 +20,7 @@ int main()
 
     float notas[n];
 
-    puts("\nDigite as notas dos alunos nas posições correspondentes:");
+    puts("\nDigite as notas dos alunos nos índices correspondentes: ");
 
     for (int i = 0; i < n; i++)
     {

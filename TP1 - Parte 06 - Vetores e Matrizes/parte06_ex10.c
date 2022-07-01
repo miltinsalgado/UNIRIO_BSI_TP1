@@ -21,15 +21,15 @@ int main()
 
     int n = 0, m = 0;
 
-    printf("\nDigite um número inteiro: ");
+    printf("\nDigite a quantidade de linhas da matriz: ");
     scanf("%d", &n);
 
-    printf("\nDigite outro número inteiro: ");
+    printf("\nDigite a quantidade de colunas da matriz: ");
     scanf("%d", &m);
 
     int matriz[n][m];
 
-    puts("\nDigite os números inteiros das posições correspondentes:");
+    puts("\nDigite os números inteiros nos índices correspondentes:");
 
     for (int i = 0; i < n; i++)
     {

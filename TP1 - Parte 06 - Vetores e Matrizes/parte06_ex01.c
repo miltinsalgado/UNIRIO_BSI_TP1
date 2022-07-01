@@ -14,7 +14,7 @@ int main()
     int tamanho_v = 10;
     int v[tamanho_v];
 
-    puts("\nDigite os números inteiros nas posições correspondentes:");
+    puts("\nDigite os números inteiros nos índices correspondentes:");
 
     for (int i = 0; i < tamanho_v; i++)
     {
