@@ -44,11 +44,11 @@ int main()
     {
         puts("\nOs pontos digitados formam um triângulo!");
 
-        float p = (a + b + c) / 2;
-        float A = sqrt(p * (p - a) * (p - b) * (p - c));
+        float perimetro = (a + b + c);
+        float area = sqrt(perimetro * (perimetro - a) * (perimetro - b) * (perimetro - c));
 
-        printf("\nPerímetro do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, p);
-        printf("\nÁrea do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, A);
+        printf("\nPerímetro do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, perimetro);
+        printf("\nÁrea do triângulo de lados %.2f, %.2f e %.2f: %.2f", a, b, c, area);
     }
 
     else

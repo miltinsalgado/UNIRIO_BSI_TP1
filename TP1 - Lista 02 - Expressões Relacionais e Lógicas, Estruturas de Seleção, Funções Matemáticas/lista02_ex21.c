@@ -1,8 +1,8 @@
 /*
     Lista 02 - Exercício 21
-    Leia  o  preço  de  um  produto  e  a  condição  de  pagamento  e  imprima  os  valores  a  serem  pagos, 
+    Leia o preço de um produto e a condição de pagamento e imprima os valores a serem pagos, 
     considerando a seguinte tabela:
-
+    
     Condição Pagamento                              Saída 
     À vista, dinheiro ou cheque, 10% de desconto    Valor a ser pago 
     À vista, cartão de crédito, 5% de desconto      Valor a ser pago 
