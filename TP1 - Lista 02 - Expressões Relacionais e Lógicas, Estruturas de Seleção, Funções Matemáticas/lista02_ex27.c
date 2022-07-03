@@ -1,6 +1,5 @@
 /*
     Lista 02 - Exercício 27
-
     Um endocrinologista deseja controlar a saúde de seus pacientes e, para isto, utiliza o índice de
     massa corporal (IMC). 
     Sabendo-se que o IMC é calculado através da fórmula:
