@@ -25,8 +25,8 @@ int main()
             cont_excluidos++;
     }
 
-    printf("\nQuantidade de valores digitados incluídos no intervalo [10, 20]: %d", cont_incluidos);
-    printf("\nQuantidade de valores digitados excluídos do intervalo [10, 20]: %d", cont_excluidos);
+    printf("\nQuantidade de valores incluídos no intervalo [10, 20]: %d", cont_incluidos);
+    printf("\nQuantidade de valores excluídos do intervalo [10, 20]: %d", cont_excluidos);
 
     printf("\n\n");
 }

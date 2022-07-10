@@ -23,7 +23,7 @@ int main()
             cont++;
     }
 
-    printf("\nQuantidade de valores digitados que são divísiveis por 3 ou 5 e são ímpares: %d", cont);
+    printf("\nQuantidade de valores que são divísiveis por 3 ou 5 e são ímpares: %d", cont);
 
     printf("\n\n");
 }
