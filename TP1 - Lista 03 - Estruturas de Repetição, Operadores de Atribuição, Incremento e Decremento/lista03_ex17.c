@@ -14,7 +14,7 @@ int main()
     setlocale(LC_ALL, "");
     printf("LISTA 03 - EXERCÍCIO 17\n");
 
-    int num_conta = 1, total_contas = 0, contas_negativas = 0;
+    int num_conta = 0, total_contas = 0, contas_negativas = 0;
     float saldo = 0;
 
     while (1)
@@ -38,7 +38,7 @@ int main()
             {
                 contas_negativas++;
                 puts("\nnegativo");
-            }   
+            }
             
             else 
                 puts("\nzerado");

@@ -11,7 +11,7 @@ int main()
     setlocale(LC_ALL, "");
     printf("LISTA 03 - EXERCÍCIO 16\n");
 
-    int num = 1, cont_impar = 0, soma_impar = 0;
+    int num = 0, cont_impar = 0, soma_impar = 0;
 
     while (1)
     {

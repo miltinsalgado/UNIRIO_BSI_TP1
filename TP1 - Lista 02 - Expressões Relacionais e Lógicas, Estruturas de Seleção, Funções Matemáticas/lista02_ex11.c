@@ -29,11 +29,11 @@ int main()
 
         int soma_partes = parte1 + parte2;
 
-        if ((int) (pow(soma_partes, 2) + 0.5) == n) //? erro de aproximação de double para int utilizando pow com alguns números (ex: 5), portanto deve se somar 0.5 para que o valor fique correto
-            printf("O número %d possui o quadrado da soma de suas partes igual ao próprio número", n);
+        if (ceil(pow(soma_partes, 2)) == n) //? erro de aproximação de double para int utilizando pow com alguns números (ex: 5), portanto deve-se arrendondar o número para que o valor fique correto
+            printf("\nO número %d possui o quadrado da soma de suas partes igual ao próprio número", n);
         
         else
-            printf("O número %d não possui o quadrado da soma de suas partes igual ao próprio número", n);
+            printf("\nO número %d não possui o quadrado da soma de suas partes igual ao próprio número", n);
     }
 
     printf("\n\n");

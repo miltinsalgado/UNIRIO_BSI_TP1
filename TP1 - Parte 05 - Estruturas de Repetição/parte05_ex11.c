@@ -17,7 +17,7 @@ int main()
     printf("\nDigite um número: ");
     scanf("%d", &n);
     
-    for (int i = n; i > 0; i/=10)
+    for (int i = n; i > 0; i /= 10)
         soma_digitos += i % 10;
 
     printf("\nSomatório dos digitos do número %d: %d", n, soma_digitos);
