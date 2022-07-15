@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("LISTA 02 - EXERCÍCIO 05\n");
@@ -26,12 +26,13 @@ int main()
     if (a > b)
     {
         if (a > c)
-            {
-                if (b > c)
-                    printf("\nO maior número é %.2f e o menor número é %.2f", a, c);
-                else
-                    printf("\nO maior número é %.2f e o menor número é %.2f", a, b);
-            }
+        {
+            if (b > c)
+                printf("\nO maior número é %.2f e o menor número é %.2f", a, c);
+
+            else
+                printf("\nO maior número é %.2f e o menor número é %.2f", a, b);
+        }
 
         else
             printf("\nO maior número é %.2f e o menor número é %.2f", c, b);
@@ -40,12 +41,13 @@ int main()
     else if (b > a)
     {
         if (b > c)
-            {
-                if (a > c)
-                    printf("\nO maior número é %.2f e o menor número é %.2f", b, c);
-                else
-                    printf("\nO maior número é %.2f e o menor número é %.2f", b, a);
-            }
+        {
+            if (a > c)
+                printf("\nO maior número é %.2f e o menor número é %.2f", b, c);
+                
+            else
+                printf("\nO maior número é %.2f e o menor número é %.2f", b, a);
+        }
 
         else
             printf("\nO maior número é %.2f e o menor número é %.2f", c, a);

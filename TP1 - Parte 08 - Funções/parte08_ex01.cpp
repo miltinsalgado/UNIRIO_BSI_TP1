@@ -9,7 +9,7 @@
 #include <locale.h>
 #include <ctype.h>
 
-void converte_temperatura()
+void converte_temperatura ()
 {
     float celsius, fahrenheit, kelvin;
 
@@ -23,7 +23,7 @@ void converte_temperatura()
     printf("K = %.1f\n", kelvin);
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 01\n");
@@ -32,11 +32,11 @@ int main()
 
     do
     {
-        converte_temperatura();
+        converte_temperatura ();
         
         printf("\nDeseja continuar? (S ou s para sim | N ou n para não)");
         printf("\nResposta: ");
-        getchar();
+        getchar ();
         scanf("%c", &resposta);
     } while (toupper(resposta) == 'S');
     

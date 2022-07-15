@@ -10,7 +10,7 @@
 #include <ctype.h>
 #include <math.h>
 
-void calcula_distancia()
+void calcula_distancia ()
 {
     float x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 
@@ -31,7 +31,7 @@ void calcula_distancia()
     printf("\nDistância entre os pontos P1 (%.2f, %.2f) e P2 (%.2f, %.2f): %.2f", x1, y1, x2, y2, d);
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 02\n");

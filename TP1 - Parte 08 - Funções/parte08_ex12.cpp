@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int busca_menor_valor(int v[], int n)
+int busca_menor_valor (int v[], int n)
 {
     int menor_valor_vetor = 0;
 
@@ -20,7 +20,7 @@ int busca_menor_valor(int v[], int n)
     return menor_valor_vetor;
 }
 
-void le_vetor(int v[], int n)
+void le_vetor (int v[], int n)
 {
     puts("\nDigite os valores dos indíces do vetor:");
 
@@ -31,7 +31,7 @@ void le_vetor(int v[], int n)
     }
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 12\n");

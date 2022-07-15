@@ -7,7 +7,7 @@
 #include <locale.h>
 #include <stdbool.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 05 - EXERCÍCIO 12\n");

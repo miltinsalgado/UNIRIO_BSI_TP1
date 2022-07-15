@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-bool eh_bissexto(int &ano)
+bool eh_bissexto (int &ano)
 {
     if (ano % 4 != 0)
         return false;
@@ -21,7 +21,7 @@ bool eh_bissexto(int &ano)
         return false;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 14\n");

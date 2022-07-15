@@ -8,7 +8,7 @@
 #include <string.h>
 #include <ctype.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 07 - EXERCÍCIO 05\n");

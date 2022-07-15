@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int fatorial()
+int fatorial ()
 {
     int n = 0;
 
@@ -25,7 +25,7 @@ int fatorial()
     return fatorial;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 05\n");

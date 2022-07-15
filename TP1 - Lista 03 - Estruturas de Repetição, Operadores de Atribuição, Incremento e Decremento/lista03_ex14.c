@@ -8,7 +8,7 @@
 #include <locale.h>
 #include <math.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("LISTA 03 - EXERCÍCIO 14\n");

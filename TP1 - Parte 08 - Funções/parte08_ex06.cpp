@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int compara()
+int compara ()
 {
     float x = 0, y = 0;
 
@@ -30,7 +30,7 @@ int compara()
     return 1;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 06\n");

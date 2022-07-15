@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-float modulo()
+float modulo ()
 {
     float x = 0;
 
@@ -23,7 +23,7 @@ float modulo()
     return modulo_x;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 04\n");

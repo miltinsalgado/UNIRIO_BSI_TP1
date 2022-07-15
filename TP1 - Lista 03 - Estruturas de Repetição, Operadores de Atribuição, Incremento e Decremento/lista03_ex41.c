@@ -16,7 +16,7 @@
 #include <locale.h>
 #include <stdbool.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("LISTA 03 - EXERCÍCIO 41\n");

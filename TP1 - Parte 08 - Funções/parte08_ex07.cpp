@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-float menor(float a, float b , float c)
+float menor (float a, float b , float c)
 {
     if (a <= b && a <= c)
         return a;
@@ -18,7 +18,7 @@ float menor(float a, float b , float c)
     return c;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 07\n");

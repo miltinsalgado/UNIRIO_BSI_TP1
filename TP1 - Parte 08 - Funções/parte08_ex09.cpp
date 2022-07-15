@@ -11,13 +11,13 @@
 #include <locale.h>
 #include <math.h>
 
-float distancia(float xa, float ya, float xb, float yb)
+float distancia (float xa, float ya, float xb, float yb)
 {
     float d = sqrt(pow(xa - xb, 2) + pow(ya - yb, 2));
     return d;
 }
 
-float perimetro(float x1, float y1, float x2, float y2, float x3, float y3)
+float perimetro (float x1, float y1, float x2, float y2, float x3, float y3)
 {
     float a = distancia(x1, y1, x2, y2);
     float b = distancia(x2, y2, x3, y3);
@@ -33,7 +33,7 @@ float perimetro(float x1, float y1, float x2, float y2, float x3, float y3)
     return p;
 }
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 09\n");

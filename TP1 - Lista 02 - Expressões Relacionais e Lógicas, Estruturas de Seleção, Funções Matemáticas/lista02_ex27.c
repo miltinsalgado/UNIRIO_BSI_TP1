@@ -19,7 +19,7 @@
 #include <locale.h>
 #include <math.h>
 
-int main()
+int main ()
 {
     setlocale(LC_ALL, "");
     printf("LISTA 02 - EXERCÍCIO 27\n");
