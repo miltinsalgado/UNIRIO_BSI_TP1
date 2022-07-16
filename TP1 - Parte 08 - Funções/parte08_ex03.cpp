@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void calcula_media ()
+void calcula_media()
 {
     float notas[2], soma = 0, media = 0;
 
@@ -25,7 +25,7 @@ void calcula_media ()
     printf("\n");
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 03\n");

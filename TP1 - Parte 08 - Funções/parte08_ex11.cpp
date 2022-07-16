@@ -26,7 +26,7 @@ void crescente (float &a, float &b, float &c)
     troca(a, b);
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 11\n");

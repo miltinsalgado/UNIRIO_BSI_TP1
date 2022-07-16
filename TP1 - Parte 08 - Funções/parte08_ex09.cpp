@@ -33,7 +33,7 @@ float perimetro (float x1, float y1, float x2, float y2, float x3, float y3)
     return p;
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 09\n");

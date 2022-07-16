@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("LISTA 03 - EXERCÍCIO 38\n");

@@ -51,7 +51,7 @@ bool eh_data_valida (int &dia, int &mes, int &ano)
     return false;
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 16\n");

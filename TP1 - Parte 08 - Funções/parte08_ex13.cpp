@@ -35,7 +35,7 @@ void titulo (char v[])
     putchar(217);
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 13\n");

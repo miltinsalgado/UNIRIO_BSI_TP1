@@ -31,7 +31,7 @@ void le_vetor (int v[], int n)
     }
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 12\n");

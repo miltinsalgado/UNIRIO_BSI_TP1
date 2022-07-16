@@ -42,7 +42,7 @@ int numero_dias_mes (int &mes, int &ano)
         return -1;
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 15\n");

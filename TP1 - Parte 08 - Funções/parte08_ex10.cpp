@@ -39,7 +39,7 @@ void moldura (int linhas, int colunas)
     putchar(217);
 }
 
-int main ()
+int main()
 {
     setlocale(LC_ALL, "");
     printf("PARTE 08 - EXERCÍCIO 10\n");
