@@ -1,7 +1,7 @@
 /*
     Parte 08 - Exercício 01
-    Altere o programa apresentado anteriormente para que ele pergunte ao usuário se ele deseja fazer mais uma conversão. 
-    Se o usuário responder 'S' ou 's', então chame a função novamente. 
+    Altere o programa apresentado anteriormente para que ele pergunte ao usuário se ele deseja fazer mais uma conversão.
+    Se o usuário responder 'S' ou 's', então chame a função novamente.
     O programa deve repetir esse comportamento até que o usuário responda 'N' ou 'n'.
 */
 
@@ -32,13 +32,13 @@ int main ()
 
     do
     {
-        converte_temperatura ();
-        
+        converte_temperatura();
+
         printf("\nDeseja continuar? (S ou s para sim | N ou n para não)");
         printf("\nResposta: ");
-        getchar ();
+        getchar();
         scanf("%c", &resposta);
     } while (toupper(resposta) == 'S');
-    
+
     printf("\n\n");
 }
