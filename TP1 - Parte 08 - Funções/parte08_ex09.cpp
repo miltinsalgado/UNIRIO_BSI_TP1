@@ -11,7 +11,7 @@
 #include <locale.h>
 #include <math.h>
 
-float distancia (float xa, float ya, float xb, float yb)
+float distancia(float xa, float ya, float xb, float yb)
 {
     float d = sqrt(pow(xa - xb, 2) + pow(ya - yb, 2));
     return d;

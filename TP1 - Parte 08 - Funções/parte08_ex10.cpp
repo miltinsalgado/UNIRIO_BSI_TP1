@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void moldura (int linhas, int colunas)
+void moldura(int linhas, int colunas)
 {
     setlocale(LC_ALL, "C");
 

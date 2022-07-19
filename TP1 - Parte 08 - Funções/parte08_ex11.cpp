@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void troca (float &x, float &y)
+void troca(float &x, float &y)
 {
     float temp = 0;
 
@@ -19,7 +19,7 @@ void troca (float &x, float &y)
     }
 }
 
-void crescente (float &a, float &b, float &c)
+void crescente(float &a, float &b, float &c)
 {
     troca(a, b);
     troca(b, c);

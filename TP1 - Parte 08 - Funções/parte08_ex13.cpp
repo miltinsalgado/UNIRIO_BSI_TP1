@@ -12,7 +12,7 @@
 #include <locale.h>
 #include <string.h>
 
-void titulo (char v[])
+void titulo(char v[])
 {
     setlocale(LC_ALL, "C");
 

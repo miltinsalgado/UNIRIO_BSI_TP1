@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-bool eh_bissexto (int &ano)
+bool eh_bissexto(int &ano)
 {
     if (ano % 4 != 0)
         return false;
@@ -23,7 +23,7 @@ bool eh_bissexto (int &ano)
         return false;
 }
 
-int numero_dias_mes (int &mes, int &ano)
+int numero_dias_mes(int &mes, int &ano)
 {
     if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12)
         return 31;
@@ -41,7 +41,7 @@ int numero_dias_mes (int &mes, int &ano)
         return -1;
 }
 
-bool eh_data_valida (int &dia, int &mes, int &ano)
+bool eh_data_valida(int &dia, int &mes, int &ano)
 {
     int dias = numero_dias_mes(mes, ano);
 

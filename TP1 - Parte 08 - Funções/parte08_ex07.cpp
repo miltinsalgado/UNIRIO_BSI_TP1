@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-float menor (float a, float b , float c)
+float menor(float a, float b , float c)
 {
     if (a <= b && a <= c)
         return a;

@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-bool eh_bissexto (int &ano)
+bool eh_bissexto(int &ano)
 {
     if (ano % 4 != 0)
         return false;

@@ -24,7 +24,7 @@ bool eh_bissexto (int &ano)
         return false;
 }
 
-int numero_dias_mes (int &mes, int &ano)
+int numero_dias_mes(int &mes, int &ano)
 {
     if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12)
         return 31;
