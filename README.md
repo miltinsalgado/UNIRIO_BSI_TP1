@@ -4,6 +4,7 @@ Repositório utilizado para meus estudos na disciplina de Técnicas de Programa�
 ### 🛠️ Tecnologias aprendidas e utilizadas 🛠️
 <div style="display: inline_block">
   <img align="center" alt="Miltin-C" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
+  &nbsp;
   <img align="center" alt="Miltin-Cpp" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
 </div>
 <br>
